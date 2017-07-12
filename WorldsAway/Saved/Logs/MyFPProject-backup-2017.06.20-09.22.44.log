@@ -1,0 +1,1571 @@
+﻿Log file open, 06/19/17 13:15:48
+LogInit:Display: Running engine for game: MyFPProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1831644171) SRandInit(1831644171).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.139850
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.19-18.15.49:233][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-18.15.49:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.19-18.15.49:297][  0]LogInit: Computer: MEE-PC
+[2017.06.19-18.15.49:297][  0]LogInit: User: mauri000
+[2017.06.19-18.15.49:297][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.06.19-18.15.49:297][  0]LogInit: High frequency timer resolution =2.533195 MHz
+[2017.06.19-18.15.49:297][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.19-18.15.49:297][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.19-18.15.49:297][  0]LogMemory: Process Physical Memory: 272.79 MB used, 272.79 MB peak
+[2017.06.19-18.15.49:297][  0]LogMemory: Process Virtual Memory: 266.78 MB used, 266.78 MB peak
+[2017.06.19-18.15.49:297][  0]LogMemory: Physical Memory: 5052.86 MB used,  3030.41 MB free, 8083.27 MB total
+[2017.06.19-18.15.49:297][  0]LogMemory: Virtual Memory: 642.39 MB used,  3030.41 MB free, 134217728.00 MB total
+[2017.06.19-18.15.49:424][  0]LogInit: Using OS detected language (en-US).
+[2017.06.19-18.15.49:424][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.19-18.15.49:428][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.19-18.15.50:995][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.19-18.15.51:033][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2017.06.19-18.15.51:033][  0]LogD3D11RHI:       2019/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.19-18.15.51:045][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.06.19-18.15.51:045][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.19-18.15.51:047][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.19-18.15.51:047][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.19-18.15.51:047][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.19-18.15.51:055][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.19-18.15.51:055][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.19-18.15.51:055][  0]LogWindows: EnumDisplayDevices:
+[2017.06.19-18.15.51:055][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.06.19-18.15.51:056][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.06.19-18.15.51:056][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.06.19-18.15.51:056][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.19-18.15.51:056][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2017.06.19-18.15.51:056][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.19-18.15.51:056][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.19-18.15.51:056][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.19-18.15.51:077][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.19-18.15.51:095][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.19-18.15.51:096][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/Unreal Projects/MyFPProject/Intermediate/Shaders/WorkingDirectory/20992/).
+[2017.06.19-18.15.51:097][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mauri_000/AppData/Local/Temp/UnrealShaderWorkingDir/0EA90E58458D57BD1D8D8FABAC25D898/'.
+[2017.06.19-18.15.51:097][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.19-18.15.53:102][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.19-18.15.53:200][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.19-18.15.53:292][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.19-18.15.53:398][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.19-18.15.53:489][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.19-18.15.53:581][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.19-18.15.53:676][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.19-18.15.53:773][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.19-18.15.53:879][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.19-18.15.53:971][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.19-18.15.54:066][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.19-18.15.54:155][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.19-18.15.54:268][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.19-18.15.54:392][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.19-18.15.54:492][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.19-18.15.54:696][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.19-18.15.54:696][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.19-18.15.54:795][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.19-18.15.54:970][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.19-18.15.55:034][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.19-18.15.55:154][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.19-18.15.55:246][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.19-18.15.55:331][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.19-18.15.55:419][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.19-18.15.55:419][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.19-18.15.56:432][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/MyFPProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/MyFPProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.19-18.15.56:564][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.19-18.15.56:593][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.19-18.15.56:607][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mauri_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.19-18.15.56:620][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.19-18.15.56:620][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.19-18.15.56:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-18.15.56:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-18.15.57:232][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-18.15.57:363][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.19-18.15.57:695][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.19-18.15.57:794][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.19-18.15.57:903][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.19-18.15.57:903][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.19-18.15.57:903][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.19-18.15.58:982][  0]LogNetVersion: MyFPProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1338835244)
+[2017.06.19-18.15.59:103][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2017.06.19-18.15.59:871][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.688389 seconds
+[2017.06.19-18.15.59:888][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.19-18.15.59:888][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.19-18.15.59:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.19-18.16.00:321][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.19-18.16.06:274][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.19-18.16.06:340][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.19-18.16.07:340][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.19-18.16.08:179][  0]SourceControl: Info Source control is disabled
+[2017.06.19-18.16.08:318][  0]SourceControl: Info Source control is disabled
+[2017.06.19-18.16.08:483][  0]SourceControl: Info Source control is disabled
+[2017.06.19-18.16.08:643][  0]SourceControl: Info Source control is disabled
+[2017.06.19-18.16.10:409][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.19-18.16.11:599][  0]LogEngine: Initializing Engine...
+[2017.06.19-18.16.11:600][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.19-18.16.11:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.19-18.16.11:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.19-18.16.12:194][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.19-18.16.12:207][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.16.12:231][  0]LogInit: FAudioDevice initialized.
+[2017.06.19-18.16.12:296][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.19-18.16.12:312][  0]LogInit: Texture streaming: Enabled
+[2017.06.19-18.16.12:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.19-18.16.12:914][  0]LogInit: Transaction tracking system initialized
+[2017.06.19-18.16.13:533][  0]BlueprintLog: New page: Editor Load
+[2017.06.19-18.16.15:332][  0]LocalizationService: Info Localization service is disabled
+[2017.06.19-18.16.16:739][  0]LogConsoleResponse:Display: 
+[2017.06.19-18.16.17:137][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.19-18.16.17:137][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.19-18.16.17:913][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyFPProject/Content/' took 0.04s
+[2017.06.19-18.16.20:234][  0]SourceControl: Info Source control is disabled
+[2017.06.19-18.16.20:234][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-18.16.20:235][  0]LightingResults: New page: Lighting Build
+[2017.06.19-18.16.20:341][  0]MapCheck: New page: Map Check
+[2017.06.19-18.16.20:341][  0]LightingResults: New page: Lighting Build
+[2017.06.19-18.16.22:474][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.16.22:491][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-18.16.22:526][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-18.16.22:668][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.203ms to complete.
+[2017.06.19-18.16.22:668][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.434
+[2017.06.19-18.16.22:767][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.19-18.16.22:994][  0]LogCollectionManager: Loaded 0 collections in 0.004089 seconds
+[2017.06.19-18.16.23:166][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyFPProject/Saved/Collections/' took 0.01s
+[2017.06.19-18.16.23:166][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyFPProject/Content/Developers/mauri000/Collections/' took 0.01s
+[2017.06.19-18.16.23:167][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyFPProject/Content/Collections/' took 0.01s
+[2017.06.19-18.16.23:167][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.19-18.16.23:184][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2329 classes and 491 folders.
+[2017.06.19-18.16.23:393][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.06.19-18.16.24:806][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.06.19-18.16.25:009][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.06.19-18.16.25:189][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.19-18.16.25:197][  0]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-18.16.25:200][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.19-18.16.25:224][  0]LogSlate: Took 0.014069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.19-18.16.25:401][  0]LogRenderer: Reallocating scene render targets to support 868x504 NumSamples 1 (Frame:1).
+[2017.06.19-18.16.25:561][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.19-18.16.25:667][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.19-18.16.25:667][  0]LogLoad: (Engine Initialization) Total time: 40.59 seconds
+[2017.06.19-18.16.25:667][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
+[2017.06.19-18.16.25:667][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.19-18.16.25:667][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.19-18.16.25:684][  0]LogOcInput: OculusInput pre-init called
+[2017.06.19-18.16.25:685][  0]LogHMD: Starting GearVRController plugin
+[2017.06.19-18.16.25:704][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.19-18.16.25:710][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-18.16.25:731][  1]LogAssetRegistry: Asset discovery search completed in 26.6498 seconds
+[2017.06.19-18.16.25:734][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.19-18.16.25:734][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2017.06.19-18.16.45:994][194]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.16.46:160][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.16.46:160][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.16.46:160][194]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:16:46 AM)
+[2017.06.19-18.16.46:160][194]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.16.46:208][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047402s)
+[2017.06.19-18.16.46:209][194]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.16.46:210][194]LogPlayLevel: PIE: World Init took: (0.001603s)
+[2017.06.19-18.16.46:210][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049394s)
+[2017.06.19-18.16.46:249][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.16.46:270][194]LogInit: FAudioDevice initialized.
+[2017.06.19-18.16.46:321][194]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.16.46:325][194]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.16.46
+[2017.06.19-18.16.46:325][194]LogWorld: Bringing up level for play took: 0.003281
+[2017.06.19-18.16.46:428][194]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.06.19-18.16.46:429][194]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.158
+[2017.06.19-18.16.46:429][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.16.57:828][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.16.57:866][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.17.07:838][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-18.17.22:022][134]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-18.17.53:258][227]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.17.53:295][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.17.53:295][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.17.53:295][227]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:17:53 AM)
+[2017.06.19-18.17.53:295][227]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.17.53:322][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026803s)
+[2017.06.19-18.17.53:323][227]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.17.53:323][227]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2017.06.19-18.17.53:324][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028252s)
+[2017.06.19-18.17.53:360][227]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.17.53:378][227]LogInit: FAudioDevice initialized.
+[2017.06.19-18.17.53:409][227]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.17.53:412][227]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.17.53
+[2017.06.19-18.17.53:413][227]LogWorld: Bringing up level for play took: 0.003345
+[2017.06.19-18.17.53:414][227]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.828
+[2017.06.19-18.17.53:415][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.17.55:247][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.17.55:307][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.18.09:823][ 23]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.18.09:861][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.18.09:861][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.18.09:862][ 23]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:18:09 AM)
+[2017.06.19-18.18.09:862][ 23]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.18.09:897][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035528s)
+[2017.06.19-18.18.09:899][ 23]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.18.09:899][ 23]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2017.06.19-18.18.09:899][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037626s)
+[2017.06.19-18.18.09:957][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.18.09:983][ 23]LogInit: FAudioDevice initialized.
+[2017.06.19-18.18.10:021][ 23]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.18.10:024][ 23]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.18.10
+[2017.06.19-18.18.10:025][ 23]LogWorld: Bringing up level for play took: 0.003232
+[2017.06.19-18.18.10:026][ 23]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.56
+[2017.06.19-18.18.10:027][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.18.12:979][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.18.13:045][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.18.21:698][574]LogActorFactory: Actor Factory created Cube
+[2017.06.19-18.18.22:098][582]LogActorFactory: Actor Factory created Cube
+[2017.06.19-18.18.27:502][899]Cmd: TRANSACTION UNDO
+[2017.06.19-18.18.27:502][899]LogEditorTransaction: Undo Create Actors
+[2017.06.19-18.18.39:453][320]Cmd: TRANSACTION UNDO
+[2017.06.19-18.18.39:453][320]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.18.40:698][369]Cmd: TRANSACTION UNDO
+[2017.06.19-18.18.40:698][369]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.18.42:457][413]Cmd: TRANSACTION UNDO
+[2017.06.19-18.18.42:457][413]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.18.57:958][248]Cmd: TRANSACTION UNDO
+[2017.06.19-18.18.57:958][248]LogEditorTransaction: Undo Move Actors
+[2017.06.19-18.19.25:359][216]Cmd: TRANSACTION UNDO
+[2017.06.19-18.19.25:359][216]LogEditorTransaction: Undo Move Actors
+[2017.06.19-18.19.31:244][502]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.19-18.19.32:108][540]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.19-18.19.56:829][161]Cmd: TRANSACTION UNDO
+[2017.06.19-18.19.56:829][161]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.19.57:308][171]Cmd: TRANSACTION UNDO
+[2017.06.19-18.19.57:308][171]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.19.57:888][185]Cmd: TRANSACTION UNDO
+[2017.06.19-18.19.57:888][185]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.19-18.19.58:609][200]Cmd: TRANSACTION UNDO
+[2017.06.19-18.19.58:609][200]LogEditorTransaction: Undo Replace component used material
+[2017.06.19-18.20.13:630][967]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.20.13:748][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.20.13:748][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.20.13:748][967]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:20:13 AM)
+[2017.06.19-18.20.13:748][967]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.20.13:778][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029820s)
+[2017.06.19-18.20.13:779][967]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.20.13:779][967]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2017.06.19-18.20.13:779][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031349s)
+[2017.06.19-18.20.13:834][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.20.13:859][967]LogInit: FAudioDevice initialized.
+[2017.06.19-18.20.13:896][967]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.20.13:900][967]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.20.13
+[2017.06.19-18.20.13:900][967]LogWorld: Bringing up level for play took: 0.003856
+[2017.06.19-18.20.13:902][967]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.685
+[2017.06.19-18.20.13:902][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.20.28:796][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.20.28:868][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.20.45:790][841]LogActorFactory: Actor Factory created Cube
+[2017.06.19-18.20.47:743][955]LogActorFactory: Actor Factory created Cube
+[2017.06.19-18.21.32:288][527]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.21.32:325][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.21.32:325][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.21.32:325][527]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:21:32 AM)
+[2017.06.19-18.21.32:325][527]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.21.32:350][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024350s)
+[2017.06.19-18.21.32:351][527]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.21.32:351][527]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2017.06.19-18.21.32:351][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025944s)
+[2017.06.19-18.21.32:386][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.21.32:406][527]LogInit: FAudioDevice initialized.
+[2017.06.19-18.21.32:443][527]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.21.32:447][527]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.21.32
+[2017.06.19-18.21.32:448][527]LogWorld: Bringing up level for play took: 0.003492
+[2017.06.19-18.21.32:492][527]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.095
+[2017.06.19-18.21.32:492][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.21.43:942][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.21.44:002][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.21.54:293][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-18.22.07:795][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-18.22.11:823][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-18.22.16:367][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-18.22.30:476][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2017.06.19-18.22.31:326][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.19-18.22.32:693][531]Cmd: DELETE
+[2017.06.19-18.22.32:693][531]Cmd: ACTOR DELETE
+[2017.06.19-18.22.32:868][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.19-18.22.32:892][531]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.06.19-18.22.36:932][773]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.06.19-18.22.39:383][909]Cmd: DELETE
+[2017.06.19-18.22.39:383][909]Cmd: ACTOR DELETE
+[2017.06.19-18.22.39:384][909]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.19-18.22.39:413][909]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.06.19-18.22.43:153][122]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.22.43:185][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.22.43:185][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.22.43:185][122]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:22:43 AM)
+[2017.06.19-18.22.43:185][122]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.22.43:213][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027172s)
+[2017.06.19-18.22.43:213][122]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.22.43:214][122]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2017.06.19-18.22.43:214][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028602s)
+[2017.06.19-18.22.43:251][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.22.43:268][122]LogInit: FAudioDevice initialized.
+[2017.06.19-18.22.43:308][122]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.22.43:311][122]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.22.43
+[2017.06.19-18.22.43:311][122]LogWorld: Bringing up level for play took: 0.003331
+[2017.06.19-18.22.43:313][122]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.726
+[2017.06.19-18.22.43:313][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.22.47:268][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.22.47:308][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.23.05:802][323]Cmd: TRANSACTION UNDO
+[2017.06.19-18.23.05:802][323]LogEditorTransaction: Undo Create Actors
+[2017.06.19-18.23.14:981][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.19-18.23.37:627][921]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.23.37:663][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.23.37:663][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.23.37:663][921]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:23:37 AM)
+[2017.06.19-18.23.37:663][921]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.23.37:692][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028532s)
+[2017.06.19-18.23.37:693][921]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.23.37:693][921]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2017.06.19-18.23.37:693][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030024s)
+[2017.06.19-18.23.37:733][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.23.37:752][921]LogInit: FAudioDevice initialized.
+[2017.06.19-18.23.37:790][921]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.23.37:794][921]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.23.37
+[2017.06.19-18.23.37:795][921]LogWorld: Bringing up level for play took: 0.003875
+[2017.06.19-18.23.37:796][921]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.79
+[2017.06.19-18.23.37:797][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.23.49:023][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.23.49:067][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.24.34:816][ 27]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.24.34:853][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.24.34:853][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.24.34:854][ 27]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:24:34 AM)
+[2017.06.19-18.24.34:854][ 27]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.24.34:883][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028980s)
+[2017.06.19-18.24.34:884][ 27]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.24.34:884][ 27]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2017.06.19-18.24.34:884][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030454s)
+[2017.06.19-18.24.34:927][ 27]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.24.34:944][ 27]LogInit: FAudioDevice initialized.
+[2017.06.19-18.24.34:977][ 27]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.24.34:981][ 27]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.24.34
+[2017.06.19-18.24.34:981][ 27]LogWorld: Bringing up level for play took: 0.003541
+[2017.06.19-18.24.34:983][ 27]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.396
+[2017.06.19-18.24.34:983][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.24.47:686][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.24.47:730][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.25.14:985][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-18.26.05:977][149]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-18.26.06:022][149]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.26.06:022][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-18.26.06:022][149]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 8:26:06 AM)
+[2017.06.19-18.26.06:022][149]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-18.26.06:060][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037127s)
+[2017.06.19-18.26.06:061][149]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-18.26.06:061][149]LogPlayLevel: PIE: World Init took: (0.001698s)
+[2017.06.19-18.26.06:062][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039316s)
+[2017.06.19-18.26.06:114][149]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-18.26.06:140][149]LogInit: FAudioDevice initialized.
+[2017.06.19-18.26.06:179][149]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-18.26.06:184][149]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-13.26.06
+[2017.06.19-18.26.06:185][149]LogWorld: Bringing up level for play took: 0.004925
+[2017.06.19-18.26.06:187][149]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.399
+[2017.06.19-18.26.06:188][149]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.26.27:295][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.26.27:357][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-18.28.46:167][981]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-18.28.46:414][981]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.28.46:999][981]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.28.47:167][981]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.19-18.28.59:186][373]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.28.59:186][373]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.28.59:186][373]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.29.19:969][121]LogUObjectGlobals:Warning: Failed to find object 'Object None.MaterialEditor_MaterialProperties'
+[2017.06.19-18.29.19:970][121]LogUObjectGlobals:Warning: Failed to find object 'Object None.MaterialEditor_MaterialProperties'
+[2017.06.19-18.29.37:242][742]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.29.37:244][742]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.29.44:226][995]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.29.44:227][995]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.29.53:027][313]LogUObjectGlobals:Warning: Failed to find object 'Object None.MaterialPalette'
+[2017.06.19-18.29.53:029][313]LogUObjectGlobals:Warning: Failed to find object 'Object None.MaterialPalette'
+[2017.06.19-18.29.55:684][408]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.29.55:685][408]LogUObjectGlobals:Warning: Failed to find object 'Object None.GraphEditorPanel'
+[2017.06.19-18.30.17:310][173]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.21:009][299]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.24:580][423]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.27:718][531]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.28:264][546]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.29:977][601]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.33:225][709]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.37:714][866]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.37:745][866]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-18.30.41:469][989]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.30.53:596][416]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.30.53:596][416]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.30.53:596][416]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.31.52:523][442]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-18.31.59:319][442]LogSavePackage: Save=8330.97ms
+[2017.06.19-18.31.59:319][442]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto1734D090C48BBDDEDE78749A9EA37A284.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.06.19-18.31.59:394][442]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.06.19-18.31.59:408][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 8.993
+[2017.06.19-18.31.59:408][442]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.993
+[2017.06.19-18.32.29:664][ 65]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.32.29:685][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.19-18.32.43:448][558]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.32.43:448][558]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.32.43:448][558]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.35.00:598][473]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.35.00:656][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.19-18.35.16:997][ 50]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.35.16:997][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.35.16:997][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.35.52:638][319]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.36.17:128][185]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.36.17:128][185]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.36.17:128][185]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.36.22:429][370]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.36.23:107][391]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.37.01:712][733]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.19-18.37.01:712][733]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.37.01:712][733]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.37.08:981][990]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.37.09:025][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.19-18.37.25:089][556]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.06.19-18.37.25:089][556]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.37.25:089][556]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.37.29:933][724]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.37.44:544][207]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.06.19-18.37.44:544][207]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.37.44:544][207]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.37.45:762][250]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.37.58:326][686]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.38.15:833][304]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.06.19-18.38.15:834][304]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.38.15:834][304]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.39.43:303][984]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.39.45:853][ 73]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.39.52:440][303]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.40.32:751][727]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.40.32:751][727]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.40.32:751][727]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.45.01:152][232]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.45.06:393][410]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.46.32:647][888]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.46.34:437][947]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.46.40:228][ 17]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.46.44:655][154]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.47.03:761][803]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.01:380][867]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.48.03:097][867]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.03:192][867]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.03:256][867]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.03:373][867]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.48.08:608][867]TextureStreamingBuild:Display: Compiling optional shaders took 5.259 seconds.
+[2017.06.19-18.48.17:565][109]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.20:688][218]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.48.22:377][218]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.22:467][218]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.22:508][218]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.22:610][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.48.30:980][218]TextureStreamingBuild:Display: Compiling optional shaders took 8.383 seconds.
+[2017.06.19-18.48.41:826][430]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.48.41:826][430]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.48.41:826][430]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.48.43:307][479]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.51:497][754]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.48.57:165][957]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.49.27:340][ 50]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.49.27:340][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.49.27:340][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.49.28:637][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.035
+[2017.06.19-18.49.28:694][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial] ([1] browsable assets)...
+[2017.06.19-18.49.28:732][ 93]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial]
+[2017.06.19-18.49.28:732][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial]
+[2017.06.19-18.49.30:295][ 93]LogSavePackage: Save=240.25ms
+[2017.06.19-18.49.30:304][ 93]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/TutorialMaterial_Auto28ED3394A4380783CA7E660B90D4770BF.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial_Auto2.uasset'
+[2017.06.19-18.49.30:318][ 93]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial_Auto2.uasset
+[2017.06.19-18.49.30:318][ 93]LogFileHelpers: Auto-saving content packages took 1.679
+[2017.06.19-18.49.36:030][255]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.49.42:656][492]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.49.44:239][492]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.49.44:314][492]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.49.44:362][492]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.49.44:461][492]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.49.49:324][492]TextureStreamingBuild:Display: Compiling optional shaders took 4.875 seconds.
+[2017.06.19-18.50.02:370][758]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.50.02:370][758]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.50.02:370][758]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.50.08:889][991]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.21:322][438]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.29:449][732]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.32:534][841]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.34:736][922]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.50.36:279][922]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.36:356][922]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.36:406][922]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.36:500][922]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.50.41:681][922]TextureStreamingBuild:Display: Compiling optional shaders took 5.198 seconds.
+[2017.06.19-18.50.54:511][307]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.50.59:185][476]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.00:962][538]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.02:502][594]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.51.04:082][594]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.04:189][594]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.04:234][594]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.04:323][594]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.51.09:352][594]TextureStreamingBuild:Display: Compiling optional shaders took 5.043 seconds.
+[2017.06.19-18.51.25:055][ 56]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-18.51.25:055][ 56]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.51.25:055][ 56]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.51.26:387][104]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.27:850][157]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.51.29:427][157]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.29:500][157]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.29:546][157]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.29:634][157]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.51.39:617][157]TextureStreamingBuild:Display: Compiling optional shaders took 9.995 seconds.
+[2017.06.19-18.51.46:972][394]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.51.50:962][521]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.52.30:674][887]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.52.30:674][887]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.52.30:674][887]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.52.41:212][259]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.52.41:233][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.19-18.52.46:765][457]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.52.56:074][789]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.19-18.52.56:074][789]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.52.56:074][789]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.53.24:099][775]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.53.24:118][775]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.06.19-18.53.32:607][ 74]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.19-18.53.32:607][ 74]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.19-18.53.32:607][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.19-18.53.58:647][994]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.53.58:693][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.19-18.54.02:954][144]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.06:110][253]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.06:214][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.19-18.54.06:280][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.06.19-18.54.09:479][365]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.09:525][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.19-18.54.15:905][595]LogMaterialEditor: Applying material TutorialMaterial
+[2017.06.19-18.54.17:730][595]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.17:824][595]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.17:894][595]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.54.18:006][595]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TutorialMaterial, compiling. 
+[2017.06.19-18.54.23:218][595]TextureStreamingBuild:Display: Compiling optional shaders took 5.226 seconds.
+[2017.06.19-18.54.34:770][819]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.19-18.54.34:770][819]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.54.34:770][819]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-18.54.34:770][819]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.55.32:203][675]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\College\STPA\final\textures\Dark-Seamless-Wood-Texture.jpg)
+[2017.06.19-18.55.32:365][675]LogTexture:Display: Building textures: Dark-Seamless-Wood-Texture (BGRA8, 850X850)
+[2017.06.19-18.55.54:621][795]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.06.19-18.56.05:634][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Textures/DarkWood" FILE="D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset" SILENT=true
+[2017.06.19-18.56.05:734][112]LogSavePackage: Save=81.94ms
+[2017.06.19-18.56.05:734][112]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/DarkWoodAD53B6D346E9585AAAB1858E6663AA22.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset'
+[2017.06.19-18.56.05:759][112]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset
+[2017.06.19-18.56.13:754][227]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.14:056][227]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.14:114][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-18.56.23:762][519]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.19-18.56.23:762][519]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.56.23:762][519]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.56.23:762][519]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.56.36:623][ 10]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.36:652][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-18.56.44:136][304]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-18.56.45:690][304]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.45:809][304]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.45:855][304]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.45:963][304]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-18.56.49:362][304]TextureStreamingBuild:Display: Compiling optional shaders took 3.429 seconds.
+[2017.06.19-18.56.53:391][412]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.56.53:434][412]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-18.57.10:596][ 64]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.19-18.57.10:596][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.57.10:596][ 64]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.57.10:596][ 64]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.57.16:624][287]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.18:840][372]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.22:093][495]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.29:942][794]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.32:666][900]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.35:091][994]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-18.57.36:642][994]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.36:774][994]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.36:819][994]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.36:912][994]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-18.57.40:271][994]TextureStreamingBuild:Display: Compiling optional shaders took 3.370 seconds.
+[2017.06.19-18.57.46:021][192]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.48:462][286]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-18.57.50:045][286]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.50:122][286]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.50:169][286]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.57.50:291][286]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-18.57.53:446][286]TextureStreamingBuild:Display: Compiling optional shaders took 3.200 seconds.
+[2017.06.19-18.58.03:582][651]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.19-18.58.03:582][651]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.58.03:582][651]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-18.58.03:582][651]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.58.07:098][784]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.58.15:001][ 82]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.58.21:097][313]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.58.29:432][635]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.19-18.58.29:432][635]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.58.29:432][635]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.58.29:432][635]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.58.42:870][143]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.58.55:151][616]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-18.58.55:151][616]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-18.58.55:152][616]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-18.58.55:152][616]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-18.59.49:020][661]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.59.54:675][883]LogEditorTransaction: Undo Edit Value
+[2017.06.19-18.59.54:684][883]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-18.59.54:722][883]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-18.59.54:816][883]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.21:903][816]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.24:675][907]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.32:862][173]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.34:906][250]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.36:196][297]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.00.38:229][297]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.38:320][297]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.38:675][297]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.00.38:779][297]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.00.47:380][297]TextureStreamingBuild:Display: Compiling optional shaders took 8.614 seconds.
+[2017.06.19-19.00.47:438][297]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.19-19.00.47:438][297]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.00.47:438][297]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.00.47:438][297]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.01.00:189][738]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.01:902][804]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.03:489][865]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.01.05:378][865]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.05:473][865]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.05:528][865]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.05:706][865]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.01.16:115][865]TextureStreamingBuild:Display: Compiling optional shaders took 10.490 seconds.
+[2017.06.19-19.01.28:672][116]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.48:637][900]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.01.50:288][900]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.50:362][900]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.50:418][900]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.01.50:504][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.02.00:165][900]TextureStreamingBuild:Display: Compiling optional shaders took 9.672 seconds.
+[2017.06.19-19.02.07:170][965]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.19-19.02.07:170][965]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.02.07:170][965]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.02.07:170][965]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.02.17:713][ 81]LogSavePackage: Save=5766.89ms
+[2017.06.19-19.02.17:713][ 81]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto3BF536DAE46AAD4CCEAC6B8925B740487.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2017.06.19-19.02.17:725][ 81]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2017.06.19-19.02.17:743][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 6.408
+[2017.06.19-19.02.17:743][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.408
+[2017.06.19-19.02.17:752][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial] ([1] browsable assets)...
+[2017.06.19-19.02.17:791][ 81]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial]
+[2017.06.19-19.02.17:791][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial]
+[2017.06.19-19.02.17:881][ 81]LogSavePackage: Save=54.57ms
+[2017.06.19-19.02.17:881][ 81]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/TutorialMaterial_Auto3D825BEDE46C5F0AE2639C7A8D3B87127.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial_Auto3.uasset'
+[2017.06.19-19.02.17:890][ 81]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial_Auto3.uasset
+[2017.06.19-19.02.17:924][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture] ([1] browsable assets)...
+[2017.06.19-19.02.17:935][ 81]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture.Dark-Seamless-Wood-Texture]
+[2017.06.19-19.02.17:935][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture]
+[2017.06.19-19.02.18:205][ 81]LogSavePackage: Save=249.05ms
+[2017.06.19-19.02.18:206][ 81]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/Dark-Seamless-Wood-Texture_Auto3EB0E016241F6868AB9EB9BAA45C066A0.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture_Auto3.uasset'
+[2017.06.19-19.02.18:215][ 81]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture_Auto3.uasset
+[2017.06.19-19.02.18:217][ 81]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Textures/DarkWood] ([1] browsable assets)...
+[2017.06.19-19.02.18:251][ 81]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPerson/Textures/DarkWood.DarkWood]
+[2017.06.19-19.02.18:251][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Textures/DarkWood]
+[2017.06.19-19.02.18:251][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Textures/DarkWood" FILE="D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-19.02.18:340][ 81]LogSavePackage: Save=43.56ms
+[2017.06.19-19.02.18:340][ 81]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/DarkWood_Auto31F1FC0AD40E21D1B3D4177ABC4382491.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto3.uasset'
+[2017.06.19-19.02.18:349][ 81]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto3.uasset
+[2017.06.19-19.02.18:349][ 81]LogFileHelpers: Auto-saving content packages took 0.599
+[2017.06.19-19.03.33:723][867]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.03.33:904][868]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.06.19-19.03.56:245][717]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.03.56:297][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-19.04.05:248][992]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.05:276][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.04.09:478][117]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.09:507][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.04.14:059][262]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.14:099][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.04.16:975][343]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.17:011][343]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.04.20:237][456]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.20:274][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.04.22:047][520]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.23:858][589]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.04.25:424][589]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.25:510][589]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.25:607][589]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.04.25:697][589]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.04.32:337][589]TextureStreamingBuild:Display: Compiling optional shaders took 6.652 seconds.
+[2017.06.19-19.04.42:593][773]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.06.19-19.04.42:593][773]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.04.42:593][773]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.04.42:593][773]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.05.00:808][446]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.01:051][447]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.19-19.05.23:239][169]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.27:637][332]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.27:727][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-19.05.29:778][407]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.29:810][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.06.19-19.05.31:366][462]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.32:158][490]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.05.33:660][490]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.33:742][490]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.33:795][490]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.05.33:900][490]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.05.41:321][490]TextureStreamingBuild:Display: Compiling optional shaders took 7.446 seconds.
+[2017.06.19-19.05.50:686][581]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.05.50:686][581]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.05.50:686][581]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.05.50:686][581]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.06.02:014][839]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-19.06.02:059][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.06.02:059][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-19.06.02:060][839]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 9:06:02 AM)
+[2017.06.19-19.06.02:060][839]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-19.06.02:095][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035345s)
+[2017.06.19-19.06.02:098][839]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-19.06.02:099][839]LogPlayLevel: PIE: World Init took: (0.003027s)
+[2017.06.19-19.06.02:099][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039003s)
+[2017.06.19-19.06.02:147][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-19.06.02:170][839]LogInit: FAudioDevice initialized.
+[2017.06.19-19.06.02:207][839]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-19.06.02:211][839]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-14.06.02
+[2017.06.19-19.06.02:212][839]LogWorld: Bringing up level for play took: 0.004660
+[2017.06.19-19.06.02:214][839]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.373
+[2017.06.19-19.06.02:215][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.06.08:700][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.06.08:775][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.06.31:834][ 40]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.06.31:877][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAtmosphericFogColor_0, compiling. 
+[2017.06.19-19.06.51:552][753]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.06.58:115][994]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.07.00:671][ 88]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.07.11:679][485]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.07.16:711][671]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.07.20:834][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_7, compiling. 
+[2017.06.19-19.07.24:042][952]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.05:709][507]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.05:783][507]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.12:594][763]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.08.14:053][763]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.14:168][763]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.14:217][763]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.08.14:311][763]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.08.29:318][763]TextureStreamingBuild:Display: Compiling optional shaders took 15.020 seconds.
+[2017.06.19-19.08.46:015][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-19.09.16:812][855]MaterialEditorStats: Info Base pass shader: 48 instructions
+[2017.06.19-19.09.16:813][855]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.06.19-19.09.16:813][855]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.06.19-19.09.16:813][855]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.09.45:914][351]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.09.45:960][351]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.09.48:185][434]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.09.49:721][434]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.09.49:803][434]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.09.49:936][434]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.09.50:051][434]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.09.56:780][434]TextureStreamingBuild:Display: Compiling optional shaders took 6.769 seconds.
+[2017.06.19-19.10.03:784][490]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.10.03:784][490]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.10.03:784][490]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.10.03:784][490]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.10.11:223][738]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.10.11:284][738]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.10.12:842][798]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.10.14:393][798]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.10.14:469][798]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.10.14:521][798]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.10.14:609][798]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.10.20:993][798]TextureStreamingBuild:Display: Compiling optional shaders took 6.399 seconds.
+[2017.06.19-19.10.40:901][427]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.10.40:901][427]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.10.40:901][427]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.10.40:901][427]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.11.21:324][943]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.11.43:804][793]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.11.43:804][793]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.11.43:804][793]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.11.43:804][793]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.11.50:694][ 52]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.11.54:833][209]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.11.56:401][209]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.11.56:482][209]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.11.56:554][209]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.11.56:663][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.12.01:306][209]TextureStreamingBuild:Display: Compiling optional shaders took 4.671 seconds.
+[2017.06.19-19.12.16:508][674]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.06.19-19.12.16:508][674]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.12.16:508][674]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.12.16:508][674]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.12.26:610][ 52]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.33:150][302]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.33:171][302]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.12.33:171][302]LogMaterial:Warning: 	Function Blend_Darken: Cannot cast from float2 to float3.
+[2017.06.19-19.12.33:176][302]MaterialEditorStats:Error: Error [SM5] Function Blend_Darken: Cannot cast from float2 to float3.
+[2017.06.19-19.12.37:927][478]LogEditorTransaction: Undo Create Pin Link
+[2017.06.19-19.12.37:955][478]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.38:213][478]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-19.12.38:250][478]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.48:370][858]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.50:624][945]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.12.52:165][945]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.52:248][945]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.52:296][945]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.12.52:428][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.12.57:371][945]TextureStreamingBuild:Display: Compiling optional shaders took 4.998 seconds.
+[2017.06.19-19.12.57:437][945]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.19-19.12.57:437][945]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.12.57:437][945]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.12.57:437][945]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.13.08:941][274]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.12:841][422]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.14:747][493]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.43:255][590]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.43:289][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-19.13.45:015][656]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.13.46:589][656]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.46:694][656]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.46:740][656]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.46:857][656]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.13.51:525][656]TextureStreamingBuild:Display: Compiling optional shaders took 4.701 seconds.
+[2017.06.19-19.13.57:351][828]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.13.59:641][892]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.14.01:199][892]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.01:284][892]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.01:329][892]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.01:422][892]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.14.08:134][892]TextureStreamingBuild:Display: Compiling optional shaders took 6.725 seconds.
+[2017.06.19-19.14.15:090][ 56]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.17:015][113]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.14.18:690][113]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.18:786][113]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.18:872][113]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.18:963][113]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.14.22:697][113]TextureStreamingBuild:Display: Compiling optional shaders took 3.747 seconds.
+[2017.06.19-19.14.28:062][266]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.34:621][512]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.14.36:204][512]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.36:278][512]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.36:339][512]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.36:430][512]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.14.43:471][512]TextureStreamingBuild:Display: Compiling optional shaders took 7.053 seconds.
+[2017.06.19-19.14.52:500][806]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.54:167][870]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.14.55:743][870]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.55:842][870]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.55:940][870]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.14.56:064][870]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.15.02:088][870]TextureStreamingBuild:Display: Compiling optional shaders took 6.036 seconds.
+[2017.06.19-19.15.21:785][313]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.06.19-19.15.21:785][313]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.15.21:785][313]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.15.21:785][313]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.15.23:500][367]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-19.15.23:542][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.15.23:543][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-19.15.23:543][367]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 9:15:23 AM)
+[2017.06.19-19.15.23:543][367]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-19.15.23:570][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026956s)
+[2017.06.19-19.15.23:571][367]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-19.15.23:571][367]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2017.06.19-19.15.23:572][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028826s)
+[2017.06.19-19.15.23:619][367]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-19.15.23:642][367]LogInit: FAudioDevice initialized.
+[2017.06.19-19.15.23:682][367]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-19.15.23:686][367]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-14.15.23
+[2017.06.19-19.15.23:687][367]LogWorld: Bringing up level for play took: 0.004070
+[2017.06.19-19.15.23:689][367]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.102
+[2017.06.19-19.15.23:689][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.15.41:789][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.15.41:870][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.15.44:686][519]Cmd: TRANSACTION UNDO
+[2017.06.19-19.15.44:686][519]LogEditorTransaction: Undo Create Actors
+[2017.06.19-19.15.44:710][519]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-19.15.44:752][519]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.15.55:079][897]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.19-19.15.55:079][897]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.15.55:079][897]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.15.55:079][897]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.15.57:566][987]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.15.57:595][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.19-19.16.06:609][330]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.16.06:609][330]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.16.06:609][330]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.16.06:609][330]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.16.40:017][606]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.16.42:488][698]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.16.56:895][252]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.16.56:895][252]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.16.56:895][252]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.16.56:895][252]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.17.10:672][778]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.17.10:721][778]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSample_0, compiling. 
+[2017.06.19-19.17.38:875][841]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.18.09:653][  0]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.18.09:694][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAtmosphericFogColor_1, compiling. 
+[2017.06.19-19.18.22:363][435]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.18.26:167][559]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.18.53:741][575]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.18.54:140][576]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.06.19-19.19.14:356][336]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.19-19.19.14:368][336]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.06.19-19.19.14:387][336]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.19-19.19.14:444][336]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.06.19-19.19.14:490][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2017.06.19-19.19.14:555][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2017.06.19-19.19.14:565][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_8, compiling. 
+[2017.06.19-19.19.14:576][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCustom_0, compiling. 
+[2017.06.19-19.19.14:673][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2017.06.19-19.19.14:746][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2017.06.19-19.19.19:343][506]LogEditorTransaction: Undo Move Nodes
+[2017.06.19-19.19.19:351][506]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-19.19.19:439][506]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.19.19:474][506]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.19-19.19.19:487][506]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.06.19-19.19.19:528][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2017.06.19-19.19.19:573][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2017.06.19-19.19.22:455][611]LogEditorTransaction: Redo Move Nodes
+[2017.06.19-19.19.22:498][611]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling. 
+[2017.06.19-19.19.22:523][611]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.19.22:556][611]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.19-19.19.22:576][611]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.06.19-19.19.22:590][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2017.06.19-19.19.22:625][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2017.06.19-19.19.52:043][548]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.19.54:275][633]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.19.54:276][633]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.19.54:276][633]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.19.54:276][633]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.19.54:276][633]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.19.54:276][633]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.19.54:278][633]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.19.54:278][633]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.19.54:278][633]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.19.54:278][633]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.04:942][ 48]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.04:943][ 48]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.04:943][ 48]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.20.04:943][ 48]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.04:943][ 48]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.04:943][ 48]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.04:962][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.20.09:789][234]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.09:790][234]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.09:790][234]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.20.09:790][234]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.09:790][234]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.09:790][234]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.09:803][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.06.19-19.20.10:735][267]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.10:736][267]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.10:736][267]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.20.10:736][267]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.10:736][267]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.10:736][267]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.10:738][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.06.19-19.20.18:504][569]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.18:504][569]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.18:504][569]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.20.18:504][569]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.18:504][569]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.18:504][569]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.18:507][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.06.19-19.20.25:163][829]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.25:163][829]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.25:163][829]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.25:163][829]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.25:163][829]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.25:173][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.20.25:207][829]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.25:208][829]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.20.25:208][829]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.25:239][830]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.19-19.20.25:239][830]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.20.25:239][830]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.19-19.20.25:239][830]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.20.29:995][  8]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.29:996][  8]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.29:996][  8]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.29:996][  8]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.30:003][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.06.19-19.20.30:036][  8]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.20.30:036][  8]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.31:912][ 77]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.31:913][ 77]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.20.31:913][ 77]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.31:922][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.06.19-19.20.31:956][ 77]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.20.34:521][162]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.20.34:553][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.06.19-19.21.04:814][109]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.04:840][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.06.19-19.21.06:703][171]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.15:429][485]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.15:465][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.21.22:829][765]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.22:860][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.21.23:893][803]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.23:945][803]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.21.26:847][911]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.26:965][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.21.34:261][194]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.34:348][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.21.37:180][302]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.21.38:742][302]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.38:856][302]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.38:913][302]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.21.39:288][302]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.21.44:258][302]TextureStreamingBuild:Display: Compiling optional shaders took 4.982 seconds.
+[2017.06.19-19.21.56:329][546]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.21.56:329][546]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.21.56:329][546]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.21.56:329][546]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.22.01:008][692]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.01:029][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.02:375][742]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.22.03:951][742]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.04:030][742]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.04:080][742]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.04:175][742]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.22.09:367][742]TextureStreamingBuild:Display: Compiling optional shaders took 5.204 seconds.
+[2017.06.19-19.22.15:234][887]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.15:270][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.18:028][969]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.18:060][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.19:782][ 17]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.19:813][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.22:010][ 97]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.22:044][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.24:274][179]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.24:319][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.26:438][259]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.26:471][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.27:991][317]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.28:034][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.06.19-19.22.30:407][407]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.22.32:024][407]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.32:154][407]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.32:213][407]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.22.32:309][407]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.22.39:834][407]TextureStreamingBuild:Display: Compiling optional shaders took 7.536 seconds.
+[2017.06.19-19.23.02:401][188]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.02:402][188]LogMaterial:Warning: Failed to compile Material /Engine/Transient.DarkWood for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.19-19.23.02:402][188]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.23.02:402][188]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.23.02:402][188]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.23.02:402][188]LogMaterial:Warning: 	Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.23.02:403][188]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchValue'
+[2017.06.19-19.23.02:403][188]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'ScratchMask'
+[2017.06.19-19.23.02:403][188]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeValue'
+[2017.06.19-19.23.02:403][188]MaterialEditorStats:Error: Error [SM5] Function Lerp_ScratchGrime: Missing function input 'GrimeMask'
+[2017.06.19-19.23.05:553][304]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.07:131][359]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.51:029][ 16]LogMaterialEditor: Applying material DarkWood
+[2017.06.19-19.23.52:635][ 16]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.52:734][ 16]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.52:780][ 16]LogMaterial: Missing cached shader map for material DarkWood, compiling. 
+[2017.06.19-19.23.52:869][ 16]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DarkWood, compiling. 
+[2017.06.19-19.24.02:478][ 16]TextureStreamingBuild:Display: Compiling optional shaders took 9.621 seconds.
+[2017.06.19-19.24.14:233][365]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.06.19-19.24.14:233][365]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.19-19.24.14:233][365]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.19-19.24.14:233][365]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.19-19.24.22:203][377]LogSavePackage: Save=6905.10ms
+[2017.06.19-19.24.22:203][377]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto4F68EDFBB441D1D554DA83CA341DA18FB.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2017.06.19-19.24.22:213][377]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2017.06.19-19.24.22:229][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 7.502
+[2017.06.19-19.24.22:229][377]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.502
+[2017.06.19-19.24.22:235][377]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Textures/DarkWood] ([1] browsable assets)...
+[2017.06.19-19.24.22:275][377]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPerson/Textures/DarkWood.DarkWood]
+[2017.06.19-19.24.22:275][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Textures/DarkWood]
+[2017.06.19-19.24.22:275][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Textures/DarkWood" FILE="D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-19.24.22:470][377]LogSavePackage: Save=58.88ms
+[2017.06.19-19.24.22:470][377]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/DarkWood_Auto41B0AD3D64B5D5003244F3AA4158B686D.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto4.uasset'
+[2017.06.19-19.24.22:482][377]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPerson/Textures/DarkWood_Auto4.uasset
+[2017.06.19-19.24.22:483][377]LogFileHelpers: Auto-saving content packages took 0.251
+[2017.06.19-19.25.30:813][755]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-19.25.30:854][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.25.30:855][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-19.25.30:855][755]PIE: New page: PIE session: FirstPersonExampleMap (Jun 19, 2017, 9:25:30 AM)
+[2017.06.19-19.25.30:855][755]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.19-19.25.30:886][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031221s)
+[2017.06.19-19.25.30:887][755]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.19-19.25.30:887][755]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2017.06.19-19.25.30:888][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032793s)
+[2017.06.19-19.25.30:950][755]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-19.25.30:974][755]LogInit: FAudioDevice initialized.
+[2017.06.19-19.25.31:011][755]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.19-19.25.31:015][755]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.19-14.25.31
+[2017.06.19-19.25.31:015][755]LogWorld: Bringing up level for play took: 0.003479
+[2017.06.19-19.25.31:017][755]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.43
+[2017.06.19-19.25.31:017][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.26.03:397][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.26.03:464][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.19-19.26.12:053][858]LogSavePackage: Save=3933.00ms
+[2017.06.19-19.26.12:053][858]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap8FD56D7F4B72A728BFC9DBA282B9E6E8.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.19-19.26.12:177][858]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.19-19.26.12:294][858]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.466
+[2017.06.19-19.26.12:305][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial" FILE="../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" SILENT=true
+[2017.06.19-19.26.12:403][858]LogSavePackage: Save=57.87ms
+[2017.06.19-19.26.12:403][858]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/TutorialMaterial646CDDFD44D02615179E9DBD86FA4B2A.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset'
+[2017.06.19-19.26.12:448][858]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset
+[2017.06.19-19.26.12:486][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Textures/Dark-Seamless-Wood-Texture" FILE="D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/Dark-Seamless-Wood-Texture.uasset" SILENT=true
+[2017.06.19-19.26.13:769][858]LogSavePackage: Save=970.11ms
+[2017.06.19-19.26.13:771][858]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/Dark-Seamless-Wood-Texture4A35797F4CB2289C5DB76B8121AB170A.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/Dark-Seamless-Wood-Texture.uasset'
+[2017.06.19-19.26.13:836][858]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/Dark-Seamless-Wood-Texture.uasset
+[2017.06.19-19.26.13:872][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Textures/DarkWood" FILE="D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset" SILENT=true
+[2017.06.19-19.26.14:005][858]LogSavePackage: Save=87.09ms
+[2017.06.19-19.26.14:005][858]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/DarkWood015C17204B3A0C573CBDD0BD64696E91.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset'
+[2017.06.19-19.26.14:085][858]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPerson/Textures/DarkWood.uasset
+[2017.06.19-19.26.39:400][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2017.06.19-19.26.41:289][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-19.27.04:134][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.19-19.27.14:814][476]LogRenderer: Reallocating scene render targets to support 868x520 NumSamples 1 (Frame:138546).
+[2017.06.19-19.27.14:874][477]LogRenderer: Reallocating scene render targets to support 868x532 NumSamples 1 (Frame:138548).
+[2017.06.19-19.31.02:742][783]LogLinker: Can't find file '/Game/HUD'
+[2017.06.19-19.31.02:742][783]LogLinker: Can't find file '/Game/HUD'
+[2017.06.19-19.33.04:294][993]LogLinker: Can't find file '/Game/MainMenu'
+[2017.06.19-19.33.04:294][993]LogLinker: Can't find file '/Game/MainMenu'
+[2017.06.19-19.33.11:609][418]LogLinker: Can't find file '/Game/PauseMenu'
+[2017.06.19-19.33.11:609][418]LogLinker: Can't find file '/Game/PauseMenu'
+[2017.06.19-19.35.28:807][717]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 112 classes and 0 folders.
+[2017.06.19-19.36.26:390][464]LogSavePackage: Save=6643.78ms
+[2017.06.19-19.36.26:390][464]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto50A6A9C4F42D94BB0B92862B8EE09A4D8.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2017.06.19-19.36.26:399][464]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2017.06.19-19.36.26:415][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 7.444
+[2017.06.19-19.36.26:415][464]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.444
+[2017.06.19-19.36.26:421][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.06.19-19.36.26:421][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.06.19-19.36.31:253][464]LogSavePackage: Save=4753.83ms
+[2017.06.19-19.36.31:253][464]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonCharacter_Auto58C2ABC8B4DD9C2E49DAED8ACFCCBC86E.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2017.06.19-19.36.31:265][464]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.06.19-19.36.31:266][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD] ([1] browsable assets)...
+[2017.06.19-19.36.31:266][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD]
+[2017.06.19-19.36.31:266][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-19.36.31:592][464]LogSavePackage: Save=307.20ms
+[2017.06.19-19.36.31:592][464]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/HUD_Auto5BCC290694C0F0B4145AE12B692AAA996.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/HUD_Auto5.uasset'
+[2017.06.19-19.36.31:604][464]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/HUD_Auto5.uasset
+[2017.06.19-19.36.31:605][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu] ([1] browsable assets)...
+[2017.06.19-19.36.31:605][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu]
+[2017.06.19-19.36.31:605][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/MainMenu_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-19.36.31:856][464]LogSavePackage: Save=233.01ms
+[2017.06.19-19.36.31:856][464]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/MainMenu_Auto55FF363224567E40F8639EAB4D61C4AB4.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/MainMenu_Auto5.uasset'
+[2017.06.19-19.36.31:868][464]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/MainMenu_Auto5.uasset
+[2017.06.19-19.36.31:870][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PauseMenu] ([1] browsable assets)...
+[2017.06.19-19.36.31:870][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/PauseMenu]
+[2017.06.19-19.36.31:870][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PauseMenu" FILE="D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/PauseMenu_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.06.19-19.36.32:122][464]LogSavePackage: Save=234.41ms
+[2017.06.19-19.36.32:122][464]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/PauseMenu_Auto5BD11E6964B8EC49A276AFDA12558B93F.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/PauseMenu_Auto5.uasset'
+[2017.06.19-19.36.32:134][464]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/PauseMenu_Auto5.uasset
+[2017.06.19-19.36.32:134][464]LogFileHelpers: Auto-saving content packages took 5.715
+[2017.06.19-19.36.41:701][786]LogSlate: Took 0.013987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.19-19.38.14:699][421]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.19-19.39.01:751][144]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.19-19.41.50:765][282]LogEditorTransaction: Undo Add Node
+[2017.06.19-19.41.53:074][367]LogEditorTransaction: Undo Edit Energy
+[2017.06.19-19.41.53:165][367]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_10:PersistentLevel.FirstPersonCharacter_C_1.CollisionCylinder) Component already registered.
+[2017.06.19-19.41.53:167][367]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.Arrow) Component already registered.
+[2017.06.19-19.41.53:173][367]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.CharMoveComp) Component already registered.
+[2017.06.19-19.41.53:175][367]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.CharacterMesh0) Component already registered.
+[2017.06.19-19.41.53:177][367]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_10:PersistentLevel.FirstPersonCharacter_C_1.Arrow) Component already registered.
+[2017.06.19-19.41.53:180][367]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_10:PersistentLevel.FirstPersonCharacter_C_1.CharMoveComp) Component already registered.
+[2017.06.19-19.41.55:128][434]LogEditorTransaction: Redo Edit Energy
+[2017.06.19-19.43.12:038][315]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.06.19-19.43.12:165][315]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.06.19-19.44.34:294][266]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.19-19.46.40:790][ 51]LogSavePackage: Save=5277.02ms
+[2017.06.19-19.46.40:790][ 51]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto6AB0CE68048C6CEACF7BE6BA5B463DC93.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2017.06.19-19.46.40:889][ 51]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap
+[2017.06.19-19.46.40:904][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 8.430
+[2017.06.19-19.46.40:904][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.430
+[2017.06.19-19.46.40:909][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.06.19-19.46.40:909][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.06.19-19.46.46:320][ 51]LogSavePackage: Save=5331.12ms
+[2017.06.19-19.46.46:320][ 51]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonCharacter_Auto629414CC14E14A05A0ED6CE9C33ACF022.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2017.06.19-19.46.46:329][ 51]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset
+[2017.06.19-19.46.46:329][ 51]LogFileHelpers: Auto-saving content packages took 5.421
+[2017.06.19-19.56.53:273][190]LogSavePackage: Save=5866.64ms
+[2017.06.19-19.56.53:273][190]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap_Auto7817247024288F265B49DCEA8955F2E4F.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2017.06.19-19.56.53:283][190]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap
+[2017.06.19-19.56.53:298][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 6.507
+[2017.06.19-19.56.53:298][190]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.507
+[2017.06.19-19.56.53:304][190]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.06.19-19.56.53:304][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.06.19-19.56.57:832][190]LogSavePackage: Save=4442.73ms
+[2017.06.19-19.56.57:832][190]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonCharacter_Auto797F627AF46643152AA688E98BEFAD9F4.tmp' to 'D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2017.06.19-19.56.57:843][190]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset
+[2017.06.19-19.56.57:843][190]LogFileHelpers: Auto-saving content packages took 4.541
+[2017.06.19-19.56.59:584][248]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.19-19.57.10:510][477]LogSavePackage: Save=3934.22ms
+[2017.06.19-19.57.10:510][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap942428684AC351995ECAB29A27F0E575.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.19-19.57.10:552][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.19-19.57.10:618][477]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.299
+[2017.06.19-19.57.10:793][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="D:/Unreal Projects/MyFPProject/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.19-19.57.12:764][477]LogSavePackage: Save=1898.24ms
+[2017.06.19-19.57.12:764][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/MainFF9851934D5942D6B8C7C8896F43344F.tmp' to 'D:/Unreal Projects/MyFPProject/Content/Main.umap'
+[2017.06.19-19.57.12:788][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/Main.umap
+[2017.06.19-19.57.12:790][477]LogFileHelpers: Saving map 'Main' took 2.166
+[2017.06.19-19.57.12:798][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.06.19-19.57.16:478][477]LogSavePackage: Save=3644.91ms
+[2017.06.19-19.57.16:478][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonCharacterF2EB02AC4932531B057F1D84435616EF.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.06.19-19.57.16:511][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.06.19-19.57.16:517][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="D:/Unreal Projects/MyFPProject/Content/HUD.uasset" SILENT=true
+[2017.06.19-19.57.16:767][477]LogSavePackage: Save=227.43ms
+[2017.06.19-19.57.16:768][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/HUDB16459D243C4E8DAFC10AEBA568B90FA.tmp' to 'D:/Unreal Projects/MyFPProject/Content/HUD.uasset'
+[2017.06.19-19.57.16:877][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/HUD.uasset
+[2017.06.19-19.57.16:881][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="D:/Unreal Projects/MyFPProject/Content/MainMenu.uasset" SILENT=true
+[2017.06.19-19.57.17:131][477]LogSavePackage: Save=231.90ms
+[2017.06.19-19.57.17:131][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/MainMenu8FB7B7BE40075D7B8A952A8626B22257.tmp' to 'D:/Unreal Projects/MyFPProject/Content/MainMenu.uasset'
+[2017.06.19-19.57.17:156][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/MainMenu.uasset
+[2017.06.19-19.57.17:166][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PauseMenu" FILE="D:/Unreal Projects/MyFPProject/Content/PauseMenu.uasset" SILENT=true
+[2017.06.19-19.57.17:339][477]LogSavePackage: Save=149.05ms
+[2017.06.19-19.57.17:339][477]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/PauseMenuAA346768414D501AAFA207BD61A07C92.tmp' to 'D:/Unreal Projects/MyFPProject/Content/PauseMenu.uasset'
+[2017.06.19-19.57.17:364][477]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/PauseMenu.uasset
+[2017.06.19-19.59.47:119][870]LogEditorTransaction: Undo Add Node
+[2017.06.19-20.02.40:198][814]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.06.19-20.02.43:202][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.06.19-20.02.47:193][881]LogSavePackage: Save=3843.38ms
+[2017.06.19-20.02.47:193][881]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonCharacter70BB71C74E75ADF9D72465955917DE52.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.06.19-20.02.47:282][881]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.06.19-20.03.22:198][265]LogSavePackage: Save=5399.89ms
+[2017.06.19-20.03.22:198][265]LogSavePackage: Moving 'D:/Unreal Projects/MyFPProject/Saved/FirstPersonExampleMap034C9E014F73BE8865B8898DF9B2986E.tmp' to 'D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.19-20.03.22:329][265]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MyFPProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.19-20.03.22:402][265]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.360
+[2017.06.19-20.03.28:528][377]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.19-20.03.28:979][378]Cmd: QUIT_EDITOR
+[2017.06.19-20.03.29:509][378]LogExit: Preparing to exit.
+[2017.06.19-20.03.31:333][378]LogExit: Editor shut down
+[2017.06.19-20.03.31:375][378]LogExit: Transaction tracking system shut down
+[2017.06.19-20.03.33:620][378]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.19-20.03.33:620][378]LogExit: Object subsystem successfully closed.
+[2017.06.19-20.03.33:833][378]LogD3D11RHI: Shutdown
+[2017.06.19-20.03.33:833][378]LogD3D11RHI: CleanupD3DDevice
+[2017.06.19-20.03.34:268][378]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.19-20.03.35:721][378]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.06.19-20.03.35:721][378]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.06.19-20.03.35:798][378]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.06.19-20.03.35:798][378]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2017.06.19-20.03.35:806][378]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.19-20.03.35:806][378]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.19-20.03.35:814][378]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.19-20.03.35:814][378]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.19-20.03.35:814][378]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.19-20.03.35:835][378]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.19-20.03.35:846][378]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.19-20.03.35:846][378]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.19-20.03.35:846][378]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.19-20.03.35:847][378]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyFPProject/Content/Collections/' was aborted.
+[2017.06.19-20.03.35:847][378]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyFPProject/Content/Developers/mauri000/Collections/' was aborted.
+[2017.06.19-20.03.35:848][378]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyFPProject/Saved/Collections/' was aborted.
+[2017.06.19-20.03.35:848][378]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.19-20.03.35:873][378]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.19-20.03.35:873][378]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.19-20.03.35:920][378]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.19-20.03.35:937][378]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.19-20.03.35:951][378]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.19-20.03.35:961][378]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.19-20.03.35:970][378]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.19-20.03.36:063][378]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.19-20.03.36:065][378]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.19-20.03.36:090][378]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.19-20.03.36:142][378]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.19-20.03.36:142][378]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.19-20.03.36:142][378]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.19-20.03.36:142][378]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.19-20.03.36:142][378]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.19-20.03.36:205][378]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.19-20.03.36:235][378]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.19-20.03.36:247][378]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.19-20.03.36:267][378]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.19-20.03.36:267][378]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.19-20.03.36:292][378]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.19-20.03.36:292][378]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.19-20.03.36:292][378]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.19-20.03.37:286][378]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.19-20.03.37:286][378]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.19-20.03.37:286][378]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.19-20.03.37:307][378]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.19-20.03.37:340][378]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.19-20.03.37:341][378]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.19-20.03.37:430][378]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.19-20.03.37:440][378]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.19-20.03.37:507][378]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.19-20.03.37:533][378]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.19-20.03.37:533][378]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.19-20.03.37:570][378]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.19-20.03.37:611][378]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.19-20.03.37:611][378]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.19-20.03.37:639][378]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.19-20.03.37:670][378]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.19-20.03.37:670][378]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.19-20.03.37:671][378]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.19-20.03.37:671][378]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.19-20.03.37:718][378]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.19-20.03.37:794][378]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.19-20.03.37:814][378]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.19-20.03.37:867][378]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.19-20.03.37:945][378]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.19-20.03.38:009][378]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.19-20.03.38:035][378]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.19-20.03.38:106][378]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.19-20.03.38:192][378]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.19-20.03.38:192][378]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.19-20.03.38:226][378]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.19-20.03.38:273][378]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.19-20.03.38:366][378]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.19-20.03.38:366][378]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.19-20.03.38:366][378]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.19-20.03.38:377][378]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.19-20.03.38:379][378]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.19-20.03.38:405][378]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.19-20.03.38:450][378]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.19-20.03.38:486][378]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.19-20.03.38:561][378]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.19-20.03.38:611][378]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.19-20.03.38:611][378]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.19-20.03.38:611][378]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.19-20.03.38:611][378]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.19-20.03.38:611][378]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.19-20.03.38:827][378]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.19-20.03.38:852][378]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.19-20.03.38:917][378]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.19-20.03.38:955][378]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.19-20.03.38:955][378]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.19-20.03.38:955][378]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.19-20.03.38:974][378]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.19-20.03.38:982][378]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.19-20.03.38:982][378]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.19-20.03.38:982][378]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.19-20.03.38:982][378]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.19-20.03.38:982][378]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.19-20.03.38:985][378]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.19-20.03.38:985][378]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.19-20.03.38:985][378]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.19-20.03.39:011][378]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.19-20.03.39:011][378]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.19-20.03.39:046][378]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.19-20.03.39:046][378]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.19-20.03.39:060][378]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.19-20.03.39:060][378]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.19-20.03.39:060][378]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.19-20.03.39:061][378]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.19-20.03.39:061][378]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.19-20.03.39:078][378]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.19-20.03.39:104][378]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.19-20.03.39:105][378]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.19-20.03.39:105][378]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.19-20.03.39:105][378]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.19-20.03.39:109][378]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.19-20.03.39:141][378]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.19-20.03.39:145][378]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.19-20.03.39:156][378]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.19-20.03.39:156][378]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.19-20.03.39:156][378]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.19-20.03.39:156][378]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.19-20.03.39:168][378]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.19-20.03.39:186][378]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.19-20.03.39:231][378]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.19-20.03.39:277][378]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.19-20.03.39:280][378]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.19-20.03.39:325][378]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.19-20.03.39:339][378]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.19-20.03.39:339][378]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.19-20.03.39:339][378]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.19-20.03.39:339][378]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.19-20.03.39:347][378]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.19-20.03.39:447][378]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.19-20.03.39:579][378]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.19-20.03.39:660][378]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.19-20.03.39:690][378]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.19-20.03.39:690][378]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.19-20.03.39:812][378]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.19-20.03.39:812][378]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.19-20.03.39:815][378]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.19-20.03.39:815][378]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.19-20.03.39:818][378]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.19-20.03.39:818][378]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.19-20.03.39:830][378]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.19-20.03.39:830][378]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.19-20.03.39:866][378]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.19-20.03.39:866][378]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.19-20.03.39:884][378]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.19-20.03.39:909][378]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.19-20.03.39:941][378]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.19-20.03.39:941][378]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.19-20.03.39:994][378]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.19-20.03.39:994][378]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.19-20.03.40:064][378]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.19-20.03.40:080][378]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.19-20.03.40:130][378]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.19-20.03.40:157][378]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.19-20.03.40:206][378]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.19-20.03.40:206][378]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.19-20.03.40:206][378]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.19-20.03.40:234][378]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.19-20.03.40:234][378]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.19-20.03.40:239][378]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.19-20.03.41:585][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.19-20.03.41:585][378]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyFPProject/Content/' was aborted.
+[2017.06.19-20.03.41:586][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.19-20.03.41:586][378]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.19-20.03.41:647][378]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.19-20.03.41:653][378]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.19-20.03.41:653][378]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.19-20.03.41:653][378]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.19-20.03.41:653][378]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.19-20.03.41:679][378]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.19-20.03.41:719][378]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.19-20.03.41:719][378]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.19-20.03.41:746][378]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.19-20.03.41:780][378]LogDerivedDataCache: Shutdown
+[2017.06.19-20.03.41:780][378]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.19-20.03.41:780][378]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.19-20.03.41:841][378]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.19-20.03.41:869][378]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.19-20.03.41:879][378]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.19-20.03.41:891][378]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.19-20.03.41:946][378]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.19-20.03.41:946][378]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.19-20.03.41:946][378]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.19-20.03.41:961][378]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.19-20.03.41:983][378]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.19-20.03.41:984][378]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.19-20.03.41:991][378]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.19-20.03.41:991][378]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.19-20.03.41:994][378]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.19-20.03.42:003][378]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.19-20.03.42:008][378]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.19-20.03.42:019][378]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.19-20.03.42:019][378]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.19-20.03.42:028][378]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.19-20.03.42:029][378]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.19-20.03.42:042][378]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.19-20.03.42:042][378]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.19-20.03.42:060][378]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.19-20.03.42:060][378]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.19-20.03.42:060][378]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.19-20.03.42:060][378]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.19-20.03.42:145][378]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.19-20.03.42:181][378]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.19-20.03.42:181][378]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.19-20.03.42:201][378]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB29FFE3C-40A8-F236-1E27-71B18FD8699A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=d20aff5b4c656a61fc6cad847d89fb39%7Ce4663809c61d450997ecbb37ed76307f%7C8ca7f959-b570-4e4d-9992-9fc9ef91a0ce&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.19-20.03.42:213][378]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.19-20.03.42:244][378]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.19-20.03.42:308][378]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.19-20.03.42:351][378]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.19-20.03.42:351][378]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.19-20.03.42:386][378]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.19-20.03.42:386][378]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.19-20.03.42:386][378]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.19-20.03.42:386][378]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.19-20.03.42:425][378]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.19-20.03.42:444][378]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.19-20.03.42:444][378]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.19-20.03.42:449][378]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.19-20.03.42:449][378]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.19-20.03.42:449][378]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.19-20.03.42:449][378]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.19-20.03.42:479][378]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.19-20.03.42:485][378]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.19-20.03.42:485][378]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.19-20.03.42:496][378]LogExit: Exiting.
+[2017.06.19-20.03.44:831][378]Log file closed, 06/19/17 15:03:44
