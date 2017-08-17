@@ -1,0 +1,357 @@
+﻿Log file open, 08/14/17 17:02:40
+LogInit:Display: Running engine for game: WorldsAway
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2085829210) SRandInit(2085829210).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.221697
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.14-22.02.41:568][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.14-22.02.41:568][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.14-22.02.44:302][  0]LogInit: Computer: MEE-PC
+[2017.08.14-22.02.44:302][  0]LogInit: User: mauri000
+[2017.08.14-22.02.44:302][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.14-22.02.44:302][  0]LogInit: High frequency timer resolution =2.533194 MHz
+[2017.08.14-22.02.44:302][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.14-22.02.44:302][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.14-22.02.44:302][  0]LogMemory: Process Physical Memory: 272.66 MB used, 272.66 MB peak
+[2017.08.14-22.02.44:302][  0]LogMemory: Process Virtual Memory: 258.77 MB used, 258.77 MB peak
+[2017.08.14-22.02.44:302][  0]LogMemory: Physical Memory: 6221.76 MB used,  1861.52 MB free, 8083.27 MB total
+[2017.08.14-22.02.44:302][  0]LogMemory: Virtual Memory: 634.44 MB used,  1861.52 MB free, 134217728.00 MB total
+[2017.08.14-22.02.44:417][  0]LogInit: Using OS detected language (en-US).
+[2017.08.14-22.02.44:417][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.14-22.02.44:422][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.14-22.02.45:657][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.14-22.02.45:708][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2017.08.14-22.02.45:708][  0]LogD3D11RHI:       2019/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.14-22.02.45:718][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.08.14-22.02.45:718][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.14-22.02.45:722][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.14-22.02.45:722][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.14-22.02.45:722][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.14-22.02.45:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.14-22.02.45:729][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.14-22.02.45:729][  0]LogWindows: EnumDisplayDevices:
+[2017.08.14-22.02.45:729][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.08.14-22.02.45:729][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.14-22.02.45:730][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.14-22.02.45:730][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.14-22.02.45:730][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2017.08.14-22.02.45:730][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.14-22.02.45:730][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.14-22.02.45:730][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.14-22.02.45:750][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.14-22.02.45:767][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.14-22.02.45:768][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/Github/ProjectWorldAway/WorldsAway/Intermediate/Shaders/WorkingDirectory/19260/).
+[2017.08.14-22.02.45:769][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mauri_000/AppData/Local/Temp/UnrealShaderWorkingDir/B24C09594C7A4838D394F0ABD99C022E/'.
+[2017.08.14-22.02.45:769][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.14-22.02.47:324][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.14-22.02.47:443][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.14-22.02.47:551][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.14-22.02.47:646][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.14-22.02.47:733][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.14-22.02.47:808][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.14-22.02.47:888][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.14-22.02.47:963][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.14-22.02.48:079][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.14-22.02.48:172][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.14-22.02.48:296][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.14-22.02.48:705][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.14-22.02.48:795][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.14-22.02.48:870][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.14-22.02.48:953][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.14-22.02.49:133][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.14-22.02.49:133][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.14-22.02.49:219][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.14-22.02.49:358][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.14-22.02.49:396][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.14-22.02.49:475][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.14-22.02.49:550][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.14-22.02.49:622][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.14-22.02.49:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.14-22.02.49:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.14-22.02.50:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.14-22.02.50:570][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.14-22.02.50:570][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.14-22.02.50:570][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/ProjectWorldAway/WorldsAway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.14-22.02.50:570][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.14-22.02.50:570][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Github/ProjectWorldAway/WorldsAway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.14-22.02.50:571][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.14-22.02.50:592][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.14-22.02.50:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mauri_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.14-22.02.50:617][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.14-22.02.50:618][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.14-22.02.50:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.14-22.02.50:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.14-22.02.51:078][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.14-22.02.51:165][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.14-22.02.51:383][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.14-22.02.51:456][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.14-22.02.51:536][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.14-22.02.51:536][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.14-22.02.51:536][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.14-22.02.52:328][  0]LogNetVersion: WorldsAway , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3023924508)
+[2017.08.14-22.02.52:406][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.08.14-22.02.54:199][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.751610 seconds
+[2017.08.14-22.02.54:207][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.14-22.02.54:207][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.14-22.02.54:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.14-22.02.54:298][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.14-22.03.04:380][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.14-22.03.04:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.14-22.03.05:244][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.14-22.03.05:935][  0]SourceControl: Info Source control is disabled
+[2017.08.14-22.03.06:062][  0]SourceControl: Info Source control is disabled
+[2017.08.14-22.03.06:141][  0]SourceControl: Info Source control is disabled
+[2017.08.14-22.03.06:220][  0]SourceControl: Info Source control is disabled
+[2017.08.14-22.03.07:368][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.14-22.03.08:410][  0]LogEngine: Initializing Engine...
+[2017.08.14-22.03.08:411][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.14-22.03.08:654][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.14-22.03.08:654][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.14-22.03.08:856][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.14-22.03.08:866][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-22.03.08:888][  0]LogInit: FAudioDevice initialized.
+[2017.08.14-22.03.08:942][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.14-22.03.08:956][  0]LogInit: Texture streaming: Enabled
+[2017.08.14-22.03.09:089][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.14-22.03.09:463][  0]LogInit: Transaction tracking system initialized
+[2017.08.14-22.03.09:949][  0]BlueprintLog: New page: Editor Load
+[2017.08.14-22.03.11:449][  0]LocalizationService: Info Localization service is disabled
+[2017.08.14-22.03.12:543][  0]LogConsoleResponse:Display: 
+[2017.08.14-22.03.12:804][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.14-22.03.12:804][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.14-22.03.13:734][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/' took 0.02s
+[2017.08.14-22.03.14:534][  0]SourceControl: Info Source control is disabled
+[2017.08.14-22.03.14:534][  0]Cmd: MAP LOAD FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.14-22.03.14:534][  0]LightingResults: New page: Lighting Build
+[2017.08.14-22.03.14:598][  0]MapCheck: New page: Map Check
+[2017.08.14-22.03.14:598][  0]LightingResults: New page: Lighting Build
+[2017.08.14-22.03.39:982][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.14-22.03.46:472][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.14-22.03.46:644][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.14-22.03.47:239][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 595.401ms to complete.
+[2017.08.14-22.03.47:239][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 32.706
+[2017.08.14-22.03.48:432][  0]LogCollectionManager: Loaded 0 collections in 0.007963 seconds
+[2017.08.14-22.03.48:822][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Collections/' took 0.01s
+[2017.08.14-22.03.48:823][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/Developers/mauri000/Collections/' took 0.01s
+[2017.08.14-22.03.48:823][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/Collections/' took 0.01s
+[2017.08.14-22.03.48:823][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000013 seconds
+[2017.08.14-22.03.48:869][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2329 classes and 491 folders.
+[2017.08.14-22.03.49:156][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.14-22.03.50:276][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.08.14-22.03.50:600][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.14-22.03.52:308][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.14-22.03.52:455][  0]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.14-22.03.52:459][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.14-22.03.52:584][  0]LogSlate: Took 0.015233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.14-22.03.53:241][  0]LogRenderer: Reallocating scene render targets to support 800x480 NumSamples 1 (Frame:1).
+[2017.08.14-22.03.55:626][  0]LogSlate: Took 0.009591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-22.03.55:985][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.14-22.03.56:104][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.14-22.03.56:104][  0]LogLoad: (Engine Initialization) Total time: 79.05 seconds
+[2017.08.14-22.03.56:104][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.62 seconds
+[2017.08.14-22.03.56:104][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.14-22.03.56:104][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.14-22.03.56:443][  0]LogOcInput: OculusInput pre-init called
+[2017.08.14-22.03.56:443][  0]LogHMD: Starting GearVRController plugin
+[2017.08.14-22.03.56:716][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.14-22.03.56:886][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/' took 0.40s
+[2017.08.14-22.03.57:424][  2]LogAssetRegistry: Asset discovery search completed in 65.0397 seconds
+[2017.08.14-22.03.57:426][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.14-22.03.57:426][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2017.08.14-22.05.39:375][493]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-22.05.39:680][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.39:693][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-22.05.39:796][493]PIE: New page: PIE session: FirstPersonExampleMap (Aug 14, 2017, 12:05:39 PM)
+[2017.08.14-22.05.39:813][493]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.14-22.05.40:068][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.255041s)
+[2017.08.14-22.05.40:068][493]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.14-22.05.40:069][493]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2017.08.14-22.05.40:076][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.263681s)
+[2017.08.14-22.05.40:235][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-22.05.40:253][493]LogInit: FAudioDevice initialized.
+[2017.08.14-22.05.40:398][493]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.14-22.05.40:546][493]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.08.14-17.05.40
+[2017.08.14-22.05.40:662][493]LogWorld: Bringing up level for play took: 0.122982
+[2017.08.14-22.05.40:797][493]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-22.05.41:123][493]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.08.14-22.05.41:184][493]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.785
+[2017.08.14-22.05.41:185][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.48:755][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.48:955][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.50:138][927]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-22.05.50:183][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.50:183][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-22.05.50:183][927]PIE: New page: PIE session: FirstPersonExampleMap (Aug 14, 2017, 12:05:50 PM)
+[2017.08.14-22.05.50:183][927]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.14-22.05.50:263][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079768s)
+[2017.08.14-22.05.50:264][927]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.14-22.05.50:264][927]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.08.14-22.05.50:264][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.081227s)
+[2017.08.14-22.05.50:312][927]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-22.05.50:330][927]LogInit: FAudioDevice initialized.
+[2017.08.14-22.05.50:381][927]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.14-22.05.50:395][927]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.08.14-17.05.50
+[2017.08.14-22.05.50:396][927]LogWorld: Bringing up level for play took: 0.014205
+[2017.08.14-22.05.50:396][927]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-22.05.50:397][927]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.002
+[2017.08.14-22.05.50:398][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.56:038][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.56:076][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.57:122][302]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.14-22.05.57:212][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.05.57:212][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-22.05.57:212][302]PIE: New page: PIE session: FirstPersonExampleMap (Aug 14, 2017, 12:05:57 PM)
+[2017.08.14-22.05.57:212][302]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.14-22.05.57:296][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083552s)
+[2017.08.14-22.05.57:297][302]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.14-22.05.57:297][302]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2017.08.14-22.05.57:297][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.085033s)
+[2017.08.14-22.05.57:336][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-22.05.57:355][302]LogInit: FAudioDevice initialized.
+[2017.08.14-22.05.57:390][302]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.14-22.05.57:405][302]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.08.14-17.05.57
+[2017.08.14-22.05.57:406][302]LogWorld: Bringing up level for play took: 0.014766
+[2017.08.14-22.05.57:408][302]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.14-22.05.57:409][302]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.01
+[2017.08.14-22.05.57:410][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.06.02:820][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.06.02:859][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.14-22.06.24:618][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bulletinboard)
+[2017.08.14-22.06.41:611][741]Cmd: TRANSACTION UNDO
+[2017.08.14-22.06.41:611][741]LogEditorTransaction: Undo Move Actors
+[2017.08.14-22.06.41:717][741]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-22.07.02:034][778]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.14-22.07.03:869][778]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.14-22.07.04:676][778]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0049 seconds. Added 112 classes and 0 folders.
+[2017.08.14-22.07.06:753][778]LogSlate: Took 0.010571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.14-22.07.07:447][779]LogSlate: Took 0.036543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.14-22.07.57:334][976]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.08.14-22.08.16:130][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bulletinboard)
+[2017.08.14-22.15.06:670][452]LogSavePackage: Save=46523.67ms
+[2017.08.14-22.15.06:670][452]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_Auto1D829801140784A4A1702FFA47E2FA165.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.08.14-22.15.06:758][452]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.08.14-22.15.06:813][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 49.136
+[2017.08.14-22.15.06:813][452]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 49.136
+[2017.08.14-22.17.18:320][146]AssetReimport: New page: Outstanding source content changes 12:17:18 PM
+[2017.08.14-22.17.18:388][147]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Musa Isle.jpg)
+[2017.08.14-22.17.29:177][148]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Iolio.jpg)
+[2017.08.14-22.17.29:606][149]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Grandparents and Son.jpg)
+[2017.08.14-22.17.30:350][150]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Colorado.jpg)
+[2017.08.14-22.17.30:608][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Moreton.png)
+[2017.08.14-22.17.30:770][152]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 2.jpg)
+[2017.08.14-22.17.30:803][152]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 2.jpg)
+[2017.08.14-22.17.30:969][153]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 1.jpg)
+[2017.08.14-22.17.30:981][153]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 1.jpg)
+[2017.08.14-22.17.31:165][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Musa_Isle" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Musa_Isle.uasset" SILENT=true
+[2017.08.14-22.17.37:373][154]LogSavePackage: Save=6190.22ms
+[2017.08.14-22.17.37:374][154]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Musa_Isle898C25894CFCFB9E3ACC4684C0C42D12.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Musa_Isle.uasset'
+[2017.08.14-22.17.37:636][154]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Musa_Isle.uasset
+[2017.08.14-22.17.37:653][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Iolio" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Iolio.uasset" SILENT=true
+[2017.08.14-22.17.38:043][154]LogSavePackage: Save=363.42ms
+[2017.08.14-22.17.38:044][154]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/IolioD15C3F5341FAB728DA3DC497A9FE4396.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Iolio.uasset'
+[2017.08.14-22.17.38:073][154]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Iolio.uasset
+[2017.08.14-22.17.38:097][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Grandparents_and_Son" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Grandparents_and_Son.uasset" SILENT=true
+[2017.08.14-22.17.38:424][154]LogSavePackage: Save=300.87ms
+[2017.08.14-22.17.38:425][154]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Grandparents_and_SonA54114E54838E8CCE1C2C98A1FFC3A78.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Grandparents_and_Son.uasset'
+[2017.08.14-22.17.38:503][154]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Grandparents_and_Son.uasset
+[2017.08.14-22.17.38:517][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Colorado" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Colorado.uasset" SILENT=true
+[2017.08.14-22.17.39:580][154]LogSavePackage: Save=1040.88ms
+[2017.08.14-22.17.39:581][154]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/ColoradoF96640D74EB71AC352E430941A6D6C2A.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Colorado.uasset'
+[2017.08.14-22.17.39:613][154]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Colorado.uasset
+[2017.08.14-22.17.39:629][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Moreton" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Moreton.uasset" SILENT=true
+[2017.08.14-22.17.40:042][154]LogSavePackage: Save=391.67ms
+[2017.08.14-22.17.40:044][154]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Moreton739A4AD348AABFCDFE8EFC8273FCFDDA.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Moreton.uasset'
+[2017.08.14-22.17.40:338][154]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Moreton.uasset
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Musa_Isle.
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Iolio.
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Grandparents_and_Son.
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Colorado.
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Moreton.
+[2017.08.14-22.17.43:365][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Campaign_2.
+[2017.08.14-22.17.43:366][268]AssetReimport: Info Failed to import file D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 2.jpg.
+[2017.08.14-22.17.43:366][268]AssetReimport: Info Importing new asset /Game/StarterContent/Textures/Campaign_1.
+[2017.08.14-22.17.43:366][268]AssetReimport: Info Failed to import file D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Campaign 1.jpg.
+[2017.08.14-22.18.11:160][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Images/Musa_Isle" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Musa_Isle.uasset" SILENT=true
+[2017.08.14-22.18.15:502][774]LogSavePackage: Save=4322.04ms
+[2017.08.14-22.18.15:502][774]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Musa_Isle3C45A6714CF9C672E2610EBB96D9BB76.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Musa_Isle.uasset'
+[2017.08.14-22.18.15:760][774]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Musa_Isle.uasset
+[2017.08.14-22.18.15:774][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Images/Iolio" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Iolio.uasset" SILENT=true
+[2017.08.14-22.18.18:675][774]LogSavePackage: Save=2654.48ms
+[2017.08.14-22.18.18:676][774]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Iolio3B55C4C24DC3AE04FF5201AB8BC2B45C.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Iolio.uasset'
+[2017.08.14-22.18.18:994][774]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Iolio.uasset
+[2017.08.14-22.18.19:638][774]LogSavePackage: Save=365.37ms
+[2017.08.14-22.18.19:638][774]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Grandparents_and_Son716C26AA4ACB3F4E6F9E9CAA44DD169C.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Grandparents_and_Son.uasset'
+[2017.08.14-22.18.19:666][774]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Grandparents_and_Son.uasset
+[2017.08.14-22.18.19:680][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Images/Colorado" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Colorado.uasset" SILENT=true
+[2017.08.14-22.18.23:103][774]LogSavePackage: Save=3400.35ms
+[2017.08.14-22.18.23:104][774]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Colorado88CA1B6042CBADA7CC2815BD9976ED3D.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Colorado.uasset'
+[2017.08.14-22.18.23:415][774]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Colorado.uasset
+[2017.08.14-22.18.23:434][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Images/Moreton" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Moreton.uasset" SILENT=true
+[2017.08.14-22.18.23:898][774]LogSavePackage: Save=251.53ms
+[2017.08.14-22.18.23:898][774]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/MoretonFDDBA3A44EB4C6288E38449054102DD8.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Moreton.uasset'
+[2017.08.14-22.18.23:973][774]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Moreton.uasset
+[2017.08.14-22.18.27:398][904]LogRenderer: Reallocating scene render targets to support 800x488 NumSamples 1 (Frame:13139).
+[2017.08.14-22.18.27:456][905]LogRenderer: Reallocating scene render targets to support 800x516 NumSamples 1 (Frame:13141).
+[2017.08.14-22.18.27:503][906]LogRenderer: Reallocating scene render targets to support 800x524 NumSamples 1 (Frame:13143).
+[2017.08.14-22.18.27:571][907]LogRenderer: Reallocating scene render targets to support 800x528 NumSamples 1 (Frame:13145).
+[2017.08.14-22.18.27:660][909]LogRenderer: Reallocating scene render targets to support 800x532 NumSamples 1 (Frame:13148).
+[2017.08.14-22.25.44:569][213]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.14-22.26.51:438][243]LogSavePackage: Save=51230.70ms
+[2017.08.14-22.26.51:438][243]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_Auto2128B45804B2C00A36C4E3692B7D4D39F.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.08.14-22.26.51:483][243]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.08.14-22.26.51:508][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 54.208
+[2017.08.14-22.26.51:508][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 54.208
+[2017.08.14-23.01.58:818][514]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.15-02.03.51:739][599]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.15-17.51.59:313][641]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.16-00.49.38:144][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.16-07.17.18:326][ 11]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.16-09.17.21:642][ 22]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.16-17.50.16:032][300]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.08.16-18.57.37:111][117]LogStreaming:Warning: Took 4649.39ms to ProcessLoadedPackages
