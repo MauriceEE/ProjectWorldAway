@@ -1,0 +1,1482 @@
+﻿Log file open, 02/07/18 18:49:47
+LogInit:Display: Running engine for game: WorldsAway
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2097417828) SRandInit(-2097417828).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080583
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.07-23.49.48:205][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.07-23.49.48:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.07-23.49.49:705][  0]LogInit: Computer: MEE-PC
+[2018.02.07-23.49.49:705][  0]LogInit: User: mauri000
+[2018.02.07-23.49.49:705][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.07-23.49.49:705][  0]LogInit: High frequency timer resolution =2.533201 MHz
+[2018.02.07-23.49.49:705][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.07-23.49.49:705][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-23.49.49:705][  0]LogMemory: Process Physical Memory: 273.88 MB used, 273.88 MB peak
+[2018.02.07-23.49.49:705][  0]LogMemory: Process Virtual Memory: 270.38 MB used, 270.38 MB peak
+[2018.02.07-23.49.49:705][  0]LogMemory: Physical Memory: 3728.00 MB used,  4355.27 MB free, 8083.27 MB total
+[2018.02.07-23.49.49:705][  0]LogMemory: Virtual Memory: 684.44 MB used,  4355.27 MB free, 134217728.00 MB total
+[2018.02.07-23.49.49:806][  0]LogInit: Using OS detected language (en-US).
+[2018.02.07-23.49.49:806][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.07-23.49.50:104][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.07-23.49.59:743][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.07-23.49.59:963][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2018.02.07-23.49.59:963][  0]LogD3D11RHI:       2019/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.07-23.49.59:974][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2018.02.07-23.49.59:974][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.07-23.49.59:978][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.07-23.49.59:978][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.07-23.49.59:978][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.07-23.49.59:985][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.07-23.49.59:985][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.07-23.49.59:985][  0]LogWindows: EnumDisplayDevices:
+[2018.02.07-23.49.59:986][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.02.07-23.49.59:986][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.07-23.49.59:986][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.07-23.49.59:986][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.07-23.49.59:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2018.02.07-23.49.59:986][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.07-23.49.59:986][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.07-23.49.59:986][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.07-23.50.00:004][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.07-23.50.00:019][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.07-23.50.00:020][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Github/ProjectWorldAway/WorldsAway/Intermediate/Shaders/WorkingDirectory/344/).
+[2018.02.07-23.50.00:020][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mauri_000/AppData/Local/Temp/UnrealShaderWorkingDir/84BFD3DB467405877770D499DB543025/'.
+[2018.02.07-23.50.00:020][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.07-23.50.01:394][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.07-23.50.01:452][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.07-23.50.01:510][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.07-23.50.01:567][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.07-23.50.01:665][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.07-23.50.01:723][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.07-23.50.01:784][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.07-23.50.01:842][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.07-23.50.01:897][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.07-23.50.02:051][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.07-23.50.02:107][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.07-23.50.02:165][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.07-23.50.02:222][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.07-23.50.02:279][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.07-23.50.02:336][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.07-23.50.02:450][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.07-23.50.02:450][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.07-23.50.02:497][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.07-23.50.02:673][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.07-23.50.02:707][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.07-23.50.02:765][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.07-23.50.02:824][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.07-23.50.02:881][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.07-23.50.02:950][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.07-23.50.02:950][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.07-23.50.03:581][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache: Loaded boot cache 1.01s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/ProjectWorldAway/WorldsAway/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Github/ProjectWorldAway/WorldsAway/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.07-23.50.04:594][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.07-23.50.04:613][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.07-23.50.04:625][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mauri_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.07-23.50.04:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.07-23.50.04:636][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.07-23.50.04:667][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.07-23.50.04:667][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.07-23.50.06:690][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.07-23.50.06:769][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.07-23.50.07:019][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.07-23.50.07:073][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.07-23.50.07:130][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.07-23.50.07:130][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.07-23.50.07:130][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.07-23.50.07:916][  0]LogNetVersion: WorldsAway , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3023924508)
+[2018.02.07-23.50.08:001][  0]LogAssetRegistry: FAssetRegistry took 0.0349 seconds to start up
+[2018.02.07-23.50.10:773][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 2.725841 seconds
+[2018.02.07-23.50.10:779][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.07-23.50.10:779][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.07-23.50.10:779][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.07-23.50.10:852][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.07-23.50.34:232][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.07-23.50.34:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.07-23.50.35:231][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.07-23.50.35:809][  0]SourceControl: Info Source control is disabled
+[2018.02.07-23.50.35:971][  0]SourceControl: Info Source control is disabled
+[2018.02.07-23.50.36:030][  0]SourceControl: Info Source control is disabled
+[2018.02.07-23.50.36:087][  0]SourceControl: Info Source control is disabled
+[2018.02.07-23.50.37:198][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.07-23.50.37:954][  0]LogEngine: Initializing Engine...
+[2018.02.07-23.50.37:955][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.07-23.50.38:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.07-23.50.38:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.07-23.50.38:357][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.07-23.50.38:369][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-23.50.38:411][  0]LogInit: FAudioDevice initialized.
+[2018.02.07-23.50.38:469][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/mauri_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.07-23.50.38:482][  0]LogInit: Texture streaming: Enabled
+[2018.02.07-23.50.38:596][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.07-23.50.39:298][  0]LogInit: Transaction tracking system initialized
+[2018.02.07-23.50.39:812][  0]BlueprintLog: New page: Editor Load
+[2018.02.07-23.50.41:700][  0]LocalizationService: Info Localization service is disabled
+[2018.02.07-23.50.43:069][  0]LogConsoleResponse:Display: 
+[2018.02.07-23.50.43:524][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.07-23.50.43:524][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.07-23.50.43:761][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/' took 0.04s
+[2018.02.07-23.50.45:871][  0]SourceControl: Info Source control is disabled
+[2018.02.07-23.50.45:871][  0]Cmd: MAP LOAD FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.07-23.50.45:873][  0]LightingResults: New page: Lighting Build
+[2018.02.07-23.50.45:949][  0]MapCheck: New page: Map Check
+[2018.02.07-23.50.45:949][  0]LightingResults: New page: Lighting Build
+[2018.02.07-23.51.09:244][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.07-23.51.09:582][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.02.07-23.51.09:586][  0]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2018.02.07-23.51.09:617][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.02.07-23.51.10:813][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:814][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:816][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:818][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:826][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:828][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:833][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:838][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:842][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:844][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:849][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:858][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:863][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:869][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:874][  0]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:878][  0]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:884][  0]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:890][  0]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:894][  0]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:896][  0]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:897][  0]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 64X64)
+[2018.02.07-23.51.10:899][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:905][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:910][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:915][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:920][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2018.02.07-23.51.10:922][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.02.07-23.51.10:940][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.07-23.51.11:104][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.02.07-23.51.11:119][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2018.02.07-23.51.11:172][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.02.07-23.51.11:849][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2018.02.07-23.51.11:855][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 128X128)
+[2018.02.07-23.51.11:861][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2018.02.07-23.51.11:870][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.02.07-23.51.11:884][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2018.02.07-23.51.11:891][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.02.07-23.51.11:903][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.02.07-23.51.11:916][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.02.07-23.51.11:930][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2018.02.07-23.51.11:937][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2018.02.07-23.51.11:948][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2018.02.07-23.51.11:961][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2018.02.07-23.51.11:972][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2018.02.07-23.51.11:987][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2018.02.07-23.51.12:001][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.02.07-23.51.12:005][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 256X256)
+[2018.02.07-23.51.12:020][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 256X256)
+[2018.02.07-23.51.12:032][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 256X256)
+[2018.02.07-23.51.12:043][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1, 128X128)
+[2018.02.07-23.51.12:049][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1, 128X128)
+[2018.02.07-23.51.12:056][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1, 64X64)
+[2018.02.07-23.51.12:061][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.02.07-23.51.12:074][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.02.07-23.51.12:086][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.02.07-23.51.12:098][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.02.07-23.51.12:111][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2018.02.07-23.51.12:117][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.02.07-23.51.12:136][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.02.07-23.51.12:289][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:291][  0]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:310][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2018.02.07-23.51.12:560][  0]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:560][  0]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:561][  0]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:562][  0]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:573][  0]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:574][  0]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:576][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:577][  0]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:579][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:580][  0]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:582][  0]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:593][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:596][  0]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:607][  0]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:608][  0]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:609][  0]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:611][  0]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:612][  0]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:614][  0]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:615][  0]LogTexture:Display: Building textures: SkyOcclusion1_30 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:616][  0]LogTexture:Display: Building textures: SkyOcclusion1_31 (AutoDXT, 64X32)
+[2018.02.07-23.51.12:618][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:626][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:628][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:629][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2018.02.07-23.51.12:631][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 128X64)
+[2018.02.07-23.51.12:637][  0]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.02.07-23.51.16:188][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.07-23.51.22:618][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.07-23.51.22:711][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.07-23.51.23:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 331.958ms to complete.
+[2018.02.07-23.51.23:043][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 37.172
+[2018.02.07-23.51.24:783][  0]LogCollectionManager: Loaded 0 collections in 0.001942 seconds
+[2018.02.07-23.51.25:193][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Collections/' took 0.03s
+[2018.02.07-23.51.25:193][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/Developers/mauri000/Collections/' took 0.03s
+[2018.02.07-23.51.25:193][  0]LogFileCache: Scanning file cache for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/Collections/' took 0.01s
+[2018.02.07-23.51.25:193][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.07-23.51.25:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2329 classes and 491 folders.
+[2018.02.07-23.51.25:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.07-23.51.27:032][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.07-23.51.27:227][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.07-23.51.28:894][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.07-23.51.29:004][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.07-23.51.29:059][  0]LogSlate: Took 0.037570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.07-23.51.29:167][  0]LogSlate: Took 0.006524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.07-23.51.29:808][  0]LogRenderer: Reallocating scene render targets to support 888x392 NumSamples 1 (Frame:1).
+[2018.02.07-23.51.30:961][  0]LogSlate: Took 0.015986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.07-23.51.31:192][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.07-23.51.31:298][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.07-23.51.31:299][  0]LogLoad: (Engine Initialization) Total time: 106.48 seconds
+[2018.02.07-23.51.31:299][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.82 seconds
+[2018.02.07-23.51.31:299][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.07-23.51.31:299][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.07-23.51.31:329][  0]LogOcInput: OculusInput pre-init called
+[2018.02.07-23.51.31:329][  0]LogHMD: Starting GearVRController plugin
+[2018.02.07-23.51.31:554][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.07-23.51.31:690][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Github/ProjectWorldAway/WorldsAway/Content/' took 0.31s
+[2018.02.07-23.51.32:145][  2]LogAssetRegistry: Asset discovery search completed in 84.1730 seconds
+[2018.02.07-23.51.32:147][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.07-23.51.32:147][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.02.07-23.55.12:550][811]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.07-23.55.12:909][812]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WorldsAway
+[2018.02.07-23.55.12:910][812]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.07-23.55.12:910][812]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.16
+[2018.02.07-23.55.12:910][812]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.07-23.55.12:910][812]LogTemp: BranchPath = MEE-PC/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = MEE-PC/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.07-23.55.13:137][814]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mauri_000\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.07-23.57.37:937][389]LogRenderer: Reallocating scene render targets to support 888x392 NumSamples 1 (Frame:12272).
+[2018.02.07-23.57.37:938][389]LogContentStreaming: Texture pool size now 400 MB
+[2018.02.07-23.57.54:222][850]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.07-23.57.54:615][850]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.02.07-23.57.54:615][850]LogSynthBenchmark:Display: ===============
+[2018.02.07-23.57.54:615][850]LogSynthBenchmark:Display: Main Processor:
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:          ... 0.023231 s/Run 'RayIntersect'
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:          ... 0.022573 s/Run 'Fractal'
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display: 
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   CPU Perf Index 0: 110.2 (weight 1.00)
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   CPU Perf Index 1: 126.7 (weight 1.50)
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:  
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display: Graphics:
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce 840M'
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   Device Id: 0x1341
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   Device Revision: 0xA2
+[2018.02.07-23.57.54:661][850]LogSynthBenchmark:Display:   GPU Memory: 2020/0/4042 MB
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:   GPU first test: 0.07s
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.177 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.162 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.133 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.637 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.029 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.421 s/GigaVert, Confidence=70% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.02.07-23.57.54:860][850]LogSynthBenchmark:Display:          ... 0.241 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU second test: 0.14s
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.761 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.343 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.226 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 6.908 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 0.207 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 0.273 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.276 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.761 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.343 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.226 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 6.908 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 0.207 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 0.273 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... 1.276 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display: 
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 0: 38.3 (weight 1.00)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 1: 18.0 (weight 0.10)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 2: 31.9 (weight 0.10)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 3: 27.1 (weight 3.00)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 4: 19.3 (weight 1.00)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 5: 17.8 (weight 0.00)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPU Perf Index 6: 72.2 (weight 0.00)
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   CPUIndex: 120.1
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:   GPUIndex: 27.7
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display: 
+[2018.02.07-23.57.55:080][850]LogSynthBenchmark:Display:          ... Total Time: 0.465557 sec
+[2018.02.07-23.57.55:705][852]LogRenderer: Reallocating scene render targets to support 888x392 NumSamples 1 (Frame:12652).
+[2018.02.07-23.57.55:706][852]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.07-23.58.25:091][328]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.07-23.58.25:144][328]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WorldsAway
+[2018.02.07-23.58.25:144][328]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.07-23.58.25:144][328]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.16
+[2018.02.07-23.58.25:144][328]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.07-23.58.25:149][328]LogTemp: BranchPath = MEE-PC/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = MEE-PC/C/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.07-23.58.25:165][328]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mauri_000\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.08-00.05.03:410][ 87]LogRenderer: Reallocating scene render targets to support 888x392 NumSamples 1 (Frame:42360).
+[2018.02.08-00.05.03:410][ 87]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.08-00.05.17:641][662]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.08-00.05.17:641][662]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.02.08-00.05.17:641][662]LogSynthBenchmark:Display: ===============
+[2018.02.08-00.05.17:641][662]LogSynthBenchmark:Display: Main Processor:
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:          ... 0.024463 s/Run 'RayIntersect'
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:          ... 0.021994 s/Run 'Fractal'
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display: 
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   CPU Perf Index 0: 104.7 (weight 1.00)
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   CPU Perf Index 1: 130.0 (weight 1.50)
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:  
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display: Graphics:
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce 840M'
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   Device Id: 0x1341
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   Device Revision: 0xA2
+[2018.02.08-00.05.17:688][662]LogSynthBenchmark:Display:   GPU Memory: 2020/0/4042 MB
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 1.318 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 1.243 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 0.806 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 4.717 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 0.214 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 0.294 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.02.08-00.05.17:796][662]LogSynthBenchmark:Display:          ... 1.983 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:   GPU second test: 0.14s
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 1.927 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 1.473 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 1.327 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 7.555 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 0.223 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.02.08-00.05.17:989][662]LogSynthBenchmark:Display:          ... 0.267 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 1.394 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 1.927 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 1.473 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 1.327 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 7.555 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 0.223 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 0.267 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... 1.394 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display: 
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 0: 41.9 (weight 1.00)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 1: 19.8 (weight 0.10)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 2: 34.5 (weight 0.10)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 3: 29.7 (weight 3.00)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 4: 20.8 (weight 1.00)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 5: 17.4 (weight 0.00)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPU Perf Index 6: 78.9 (weight 0.00)
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   CPUIndex: 119.9
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:   GPUIndex: 30.2
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display: 
+[2018.02.08-00.05.17:990][662]LogSynthBenchmark:Display:          ... Total Time: 0.348330 sec
+[2018.02.08-00.05.18:626][663]LogRenderer: Reallocating scene render targets to support 888x392 NumSamples 1 (Frame:42462).
+[2018.02.08-00.05.18:770][667]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.08-00.05.35:741][124]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.05.36:835][180]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.05.37:587][182]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.08-00.05.40:566][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.06.23:435][833]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.06.54:201][469]Cmd: TRANSACTION UNDO
+[2018.02.08-00.06.54:202][469]LogEditorTransaction: Undo Create Actors
+[2018.02.08-00.06.54:279][469]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.08-00.06.55:479][588]Cmd: TRANSACTION REDO
+[2018.02.08-00.06.55:479][588]LogEditorTransaction: Redo Create Actors
+[2018.02.08-00.08.19:554][433]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.08-00.08.34:071][433]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.08-00.09.40:213][433]LogSavePackage: Save=66886.23ms
+[2018.02.08-00.09.40:214][433]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_Auto1A480F4794BD72490DEC388818102E5A6.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.02.08-00.09.40:237][433]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.02.08-00.09.40:309][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 80.677
+[2018.02.08-00.09.40:309][433]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 80.677
+[2018.02.08-00.09.40:313][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/Images/Campaign2Small_Mat] ([1] browsable assets)...
+[2018.02.08-00.09.40:357][433]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/Images/Campaign2Small_Mat.Campaign2Small_Mat]
+[2018.02.08-00.09.40:357][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/Images/Campaign2Small_Mat]
+[2018.02.08-00.09.40:552][433]LogSavePackage: Save=171.48ms
+[2018.02.08-00.09.40:554][433]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign2Small_Mat_Auto17FC5F0484CA3AFAEB405039EC6A428C5.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/StarterContent/Textures/Images/Campaign2Small_Mat_Auto1.uasset'
+[2018.02.08-00.09.40:641][433]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/StarterContent/Textures/Images/Campaign2Small_Mat_Auto1.uasset
+[2018.02.08-00.09.40:642][433]LogFileHelpers: Auto-saving content packages took 0.330
+[2018.02.08-00.11.24:896][724]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.26:633][724]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.26:709][724]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.26:826][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-00.11.26:873][724]LogSlate: Took 0.032292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.08-00.11.29:376][802]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-00.11.29:376][802]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.11.29:376][802]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.11.29:376][802]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.11.29:978][832]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.30:744][863]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.31:381][893]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.35:311][ 99]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-00.11.35:311][ 99]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.11.35:311][ 99]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.11.35:311][ 99]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.11.39:195][308]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.11.39:207][308]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.02.08-00.11.43:066][516]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-00.11.43:067][516]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.11.43:067][516]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.11.43:067][516]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.12.00:501][683]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.02:587][780]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.04:849][896]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.07:010][  1]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.07:142][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.02.08-00.12.12:307][236]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.12.12:307][236]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.12.12:307][236]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.12.12:307][236]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.12.19:046][607]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.19:077][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.02.08-00.12.21:809][739]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.21:848][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.26:892][986]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.12.26:892][986]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.12.26:892][986]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.12.26:892][986]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.12.29:333][153]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.31:670][263]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.35:540][454]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.12.35:540][454]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.12.35:540][454]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.12.35:540][454]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.12.45:911][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.46:409][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.46:503][ 10]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.46:529][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:006][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:040][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:134][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:182][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:215][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:249][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:284][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:332][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:383][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:420][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:470][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:506][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:540][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:575][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:610][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:688][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.48:795][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.49:113][ 78]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.49:157][ 78]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.49:188][ 78]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:027][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:121][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:165][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:201][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:235][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:310][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:346][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:380][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:423][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:471][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:506][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:571][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:608][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:680][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:764][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:800][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:835][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:870][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:916][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.50:968][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:004][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:039][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:090][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:136][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:171][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:206][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:241][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:315][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:366][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:402][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:466][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:501][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:537][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:572][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:608][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:643][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:677][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:713][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:748][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:782][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:817][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:852][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:889][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:925][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.51:960][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:044][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:079][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:114][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:158][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:237][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:278][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:313][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:348][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:384][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:457][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:493][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:557][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:608][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:643][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:679][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:714][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:748][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:817][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:853][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:906][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:941][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.52:985][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:020][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:054][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:089][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:125][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:195][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:231][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:283][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:318][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:354][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:389][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:423][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:483][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:519][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:574][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:610][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:645][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:680][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:716][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:751][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:850][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:885][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:920][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:955][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.53:991][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:026][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:061][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:130][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:165][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:211][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:260][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.54:295][115]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.54:323][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.12.57:578][256]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.12.57:609][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.13.02:465][478]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.02:493][478]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.13.07:102][693]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-00.13.07:102][693]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.13.07:102][693]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.13.07:103][693]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.13.16:085][154]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.16:109][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.13.20:155][354]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-00.13.20:155][354]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.13.20:155][354]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.13.20:155][354]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.13.27:115][717]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.27:132][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.02.08-00.13.31:375][925]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-00.13.31:375][925]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.13.31:375][925]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.13.31:375][925]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.13.35:413][125]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.37:829][233]LogMaterialEditor: Saving and Compiling material Campaign2Small_Mat
+[2018.02.08-00.13.39:024][233]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.39:151][233]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.39:208][233]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.39:343][233]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Campaign2Small_Mat, compiling. 
+[2018.02.08-00.13.40:712][233]TextureStreamingBuild:Display: Compiling optional shaders took 1.425 seconds.
+[2018.02.08-00.13.42:982][233]LogSavePackage: Save=63.42ms
+[2018.02.08-00.13.42:982][233]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign2Small_MatE661FAE64C1A8244955DC7BF7E718321.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset'
+[2018.02.08-00.13.43:045][233]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset
+[2018.02.08-00.13.43:055][233]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.13.43:055][233]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.13.43:055][233]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.08-00.13.43:055][233]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.14.07:207][128]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.08-00.14.08:646][235]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.02.08-00.14.42:950][782]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.02.08-00.14.51:596][248]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-00.14.54:482][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.14.54:500][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-00.14.54:624][248]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 2:14:54 PM)
+[2018.02.08-00.14.54:638][248]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-00.14.54:758][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120226s)
+[2018.02.08-00.14.54:759][248]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-00.14.54:759][248]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2018.02.08-00.14.54:769][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.131490s)
+[2018.02.08-00.14.54:934][248]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-00.14.54:950][248]LogInit: FAudioDevice initialized.
+[2018.02.08-00.14.55:040][248]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-00.14.55:195][248]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-19.14.55
+[2018.02.08-00.14.55:308][248]LogWorld: Bringing up level for play took: 0.130489
+[2018.02.08-00.14.55:425][248]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-00.14.55:656][248]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.02.08-00.14.55:716][248]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.625
+[2018.02.08-00.14.55:717][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.15.29:358][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.15.29:535][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.15.36:500][264]LogRenderer: Reallocating scene render targets to support 888x396 NumSamples 1 (Frame:75405).
+[2018.02.08-00.15.36:559][265]LogRenderer: Reallocating scene render targets to support 888x408 NumSamples 1 (Frame:75408).
+[2018.02.08-00.15.36:614][265]LogRenderer: Reallocating scene render targets to support 888x416 NumSamples 1 (Frame:75411).
+[2018.02.08-00.15.36:700][266]LogRenderer: Reallocating scene render targets to support 888x428 NumSamples 1 (Frame:75415).
+[2018.02.08-00.15.36:781][267]LogRenderer: Reallocating scene render targets to support 888x448 NumSamples 1 (Frame:75419).
+[2018.02.08-00.15.36:859][268]LogRenderer: Reallocating scene render targets to support 888x460 NumSamples 1 (Frame:75423).
+[2018.02.08-00.15.36:942][269]LogRenderer: Reallocating scene render targets to support 888x464 NumSamples 1 (Frame:75427).
+[2018.02.08-00.15.37:023][270]LogRenderer: Reallocating scene render targets to support 888x472 NumSamples 1 (Frame:75431).
+[2018.02.08-00.15.37:100][271]LogRenderer: Reallocating scene render targets to support 888x476 NumSamples 1 (Frame:75435).
+[2018.02.08-00.15.37:216][273]LogRenderer: Reallocating scene render targets to support 888x480 NumSamples 1 (Frame:75442).
+[2018.02.08-00.15.37:297][274]LogRenderer: Reallocating scene render targets to support 888x488 NumSamples 1 (Frame:75446).
+[2018.02.08-00.15.40:008][417]LogRenderer: Reallocating scene render targets to support 892x488 NumSamples 1 (Frame:75742).
+[2018.02.08-00.15.40:068][417]LogRenderer: Reallocating scene render targets to support 900x488 NumSamples 1 (Frame:75745).
+[2018.02.08-00.15.40:161][418]LogRenderer: Reallocating scene render targets to support 904x488 NumSamples 1 (Frame:75749).
+[2018.02.08-00.15.40:348][423]LogRenderer: Reallocating scene render targets to support 908x488 NumSamples 1 (Frame:75762).
+[2018.02.08-00.17.37:969][865]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ceiling3)
+[2018.02.08-00.19.15:559][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.19.18:561][879]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight)
+[2018.02.08-00.19.20:670][ 24]Cmd: DUPLICATE
+[2018.02.08-00.19.20:670][ 24]Cmd: ACTOR DUPLICATE
+[2018.02.08-00.21.46:486][127]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.21.55:770][890]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.21.59:263][890]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.21.59:340][890]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.21.59:382][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-00.22.03:111][ 70]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.04:201][124]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.04:921][159]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.06:885][258]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.08:785][351]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.10:824][452]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.11:883][504]LogMaterialEditor: Saving and Compiling material Campaign1Small_Mat
+[2018.02.08-00.22.13:103][504]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.13:174][504]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.13:247][504]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.13:333][504]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Campaign1Small_Mat, compiling. 
+[2018.02.08-00.22.14:787][504]TextureStreamingBuild:Display: Compiling optional shaders took 1.465 seconds.
+[2018.02.08-00.22.16:912][504]LogSavePackage: Save=65.39ms
+[2018.02.08-00.22.16:912][504]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign1Small_Mat3E1A26B74BE98A6BFCB37990D0431D69.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset'
+[2018.02.08-00.22.16:938][504]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset
+[2018.02.08-00.22.16:949][504]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.22.16:949][504]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.22.16:949][504]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.08-00.22.16:949][504]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.22.45:935][487]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.22.46:119][487]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.22.46:135][487]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.22.46:176][487]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-00.22.52:146][756]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.22.52:146][756]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.22.52:146][756]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.22.52:146][756]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.22.56:778][978]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.23.01:750][218]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.23.01:750][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.23.01:750][218]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.23.01:750][218]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.23.07:798][506]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.23.13:113][762]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-00.23.13:114][762]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.23.13:114][762]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.23.13:114][762]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.23.18:048][997]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.23.22:557][214]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.23.22:557][214]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.23.22:557][214]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.23.22:557][214]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.23.29:949][568]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.23.34:607][795]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.23.34:607][795]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.23.34:607][795]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.23.34:607][795]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.23.46:227][349]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.23.50:978][579]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.23.50:978][579]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.23.50:978][579]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.23.50:978][579]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.24.06:706][333]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.24.11:573][568]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.24.11:574][568]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.24.11:574][568]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.24.11:574][568]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.24.28:130][361]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.24.32:853][590]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.24.32:853][590]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.24.32:853][590]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.24.32:853][590]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.24.40:927][981]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.24.45:350][195]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.24.45:350][195]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.24.45:350][195]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.24.45:350][195]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.24.52:036][520]LogMaterialEditor: Saving and Compiling material Campaign1Small_Mat
+[2018.02.08-00.24.52:940][520]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.02.08-00.24.53:053][520]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.24.53:091][520]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.24.53:181][520]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Campaign1Small_Mat, compiling. 
+[2018.02.08-00.24.54:490][520]TextureStreamingBuild:Display: Compiling optional shaders took 1.319 seconds.
+[2018.02.08-00.24.57:690][520]LogSavePackage: Save=86.36ms
+[2018.02.08-00.24.57:690][520]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign1Small_Mat982F6C2447507B54C4B572AA881A1B25.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset'
+[2018.02.08-00.24.57:726][520]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset
+[2018.02.08-00.24.57:736][520]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.24.57:736][520]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.24.57:736][520]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.08-00.24.57:736][520]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.25.10:243][339]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.11:673][339]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.11:687][339]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.11:732][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-00.25.16:398][558]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.25.16:398][558]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.25.16:399][558]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.25.16:399][558]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.25.32:059][340]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.36:325][555]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.25.36:325][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.25.36:325][555]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.25.36:325][555]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.25.38:081][637]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.42:543][863]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.25.42:543][863]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.25.42:543][863]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-00.25.42:543][863]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.25.45:324][  5]LogMaterialEditor: Saving and Compiling material Campaign2Small_Mat
+[2018.02.08-00.25.46:169][  5]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.02.08-00.25.46:223][  5]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.25.46:270][  5]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.25.46:356][  5]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Campaign2Small_Mat, compiling. 
+[2018.02.08-00.25.47:733][  5]TextureStreamingBuild:Display: Compiling optional shaders took 1.386 seconds.
+[2018.02.08-00.25.50:008][  5]LogSavePackage: Save=53.87ms
+[2018.02.08-00.25.50:009][  5]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign2Small_Mat727AE22E46866084D19815B40B8A4F21.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset'
+[2018.02.08-00.25.50:049][  5]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset
+[2018.02.08-00.25.50:060][  5]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2018.02.08-00.25.50:060][  5]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-00.25.50:060][  5]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.08-00.25.50:060][  5]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-00.26.21:613][ 94]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-00.26.21:662][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.26.21:662][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-00.26.21:662][ 94]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 2:26:21 PM)
+[2018.02.08-00.26.21:662][ 94]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-00.26.21:728][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065656s)
+[2018.02.08-00.26.21:729][ 94]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-00.26.21:729][ 94]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2018.02.08-00.26.21:730][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.067441s)
+[2018.02.08-00.26.21:766][ 94]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-00.26.21:781][ 94]LogInit: FAudioDevice initialized.
+[2018.02.08-00.26.21:861][ 94]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-00.26.21:871][ 94]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-19.26.21
+[2018.02.08-00.26.21:872][ 94]LogWorld: Bringing up level for play took: 0.009927
+[2018.02.08-00.26.21:872][ 94]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-00.26.21:873][ 94]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.785
+[2018.02.08-00.26.21:873][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.28.59:573][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.28.59:623][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.29.06:851][ 85]MapCheck: New page: Map Check
+[2018.02.08-00.29.06:887][ 85]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.08-00.29.06:892][ 85]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.08-00.29.08:340][ 85]LightingResults: New page: Lighting Build - Feb 7, 2018, 2:29:08 PM
+[2018.02.08-00.29.08:965][ 85]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.08-00.29.09:132][ 85]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.08-00.29.09:660][ 85]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.08-00.29.12:262][ 85]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.08-00.29.12:262][ 85]LogSwarmInterface: [TryOpenConnection] Local Process ID is 344
+[2018.02.08-00.29.21:637][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.08-00.29.21:637][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.08-00.29.21:637][ 85]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.08-00.29.21:637][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.08-00.29.21:637][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.08-00.29.22:465][ 85]LogEditorBuildUtils: Build time 0:15
+[2018.02.08-00.29.23:191][102]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign2Small_Mat, compiling. 
+[2018.02.08-00.29.23:220][102]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign2Small_Mat, compiling. 
+[2018.02.08-00.29.23:244][103]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign1Small_Mat, compiling. 
+[2018.02.08-00.29.23:277][103]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign1Small_Mat, compiling. 
+[2018.02.08-00.29.38:586][854]LightingResults:Warning: Warning Desk_Desk_Drawer_Small Object has overlapping UVs.
+[2018.02.08-00.29.38:586][854]LightingResults: Info Desk_Desk_Drawer_Small Lightmap UV are overlapping by 41.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.38:912][872]LightingResults:Warning: Warning ArmChair_Cylinder01 Object has overlapping UVs.
+[2018.02.08-00.29.38:912][872]LightingResults: Info ArmChair_Cylinder01 Lightmap UV are overlapping by 70.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.39:680][912]LightingResults:Warning: Warning Desk_Desk_Drawer_Large Object has overlapping UVs.
+[2018.02.08-00.29.39:680][912]LightingResults: Info Desk_Desk_Drawer_Large Lightmap UV are overlapping by 41.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.39:892][924]LightingResults:Warning: Warning ArmChair_Box01 Object has wrapping UVs.
+[2018.02.08-00.29.39:892][924]LightingResults:Warning: Warning ArmChair_Box01 Object has overlapping UVs.
+[2018.02.08-00.29.39:892][924]LightingResults: Info ArmChair_Box01 Lightmap UV are overlapping by 10.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.40:156][937]LightingResults:Warning: Warning Desk_Desk_Desktop_Small Object has overlapping UVs.
+[2018.02.08-00.29.40:156][937]LightingResults: Info Desk_Desk_Desktop_Small Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.40:156][937]LightingResults:Warning: Warning Desk_Desk_Desk_Main Object has overlapping UVs.
+[2018.02.08-00.29.40:156][937]LightingResults: Info Desk_Desk_Desk_Main Lightmap UV are overlapping by 7.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.42:066][ 44]LightingResults:Warning: Warning ArmChair_Tube01 Object has overlapping UVs.
+[2018.02.08-00.29.42:066][ 44]LightingResults: Info ArmChair_Tube01 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.42:294][ 56]LightingResults:Warning: Warning ArmChair_Tube02 Object has overlapping UVs.
+[2018.02.08-00.29.42:294][ 56]LightingResults: Info ArmChair_Tube02 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.29.48:605][395]LightingResults:Warning: Warning Couch_2017 Object has overlapping UVs.
+[2018.02.08-00.29.48:605][395]LightingResults: Info Couch_2017 Lightmap UV are overlapping by 3.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-00.30.22:309][280]Job is a success!
+[2018.02.08-00.30.22:890][281]LogMaterial:Warning: Material /Game/StarterContent/Textures/Images/Campaign2Small_Mat.Campaign2Small_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.02.08-00.30.22:894][281]LogMaterial: Missing cached shader map for material Campaign2Small_Mat, compiling. 
+[2018.02.08-00.30.22:936][281]LogMaterial:Warning: Material /Game/StarterContent/Textures/Images/Campaign1Small_Mat.Campaign1Small_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.02.08-00.30.22:973][281]LogMaterial: Missing cached shader map for material Campaign1Small_Mat, compiling. 
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 128X64)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.02.08-00.30.27:396][281]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 128X64)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT, 256X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT, 128X64)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2018.02.08-00.30.27:397][281]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2018.02.08-00.30.27:398][281]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT, 64X32)
+[2018.02.08-00.30.27:398][281]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 64X64)
+[2018.02.08-00.30.27:398][281]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1, 64X64)
+[2018.02.08-00.30.28:400][281]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 512X512)
+[2018.02.08-00.30.28:540][281]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X512)
+[2018.02.08-00.30.28:814][281]Lightmass on MEE-PC: 1:01 min total, 3.12 sec importing, 1.35 sec setup, 4.10 sec photons, 51.8 sec processing, 0 ms extra exporting [777/777 mappings]. Threads: 3:27 min total, 2:12 min processing.
+[2018.02.08-00.30.29:223][281]LogStaticLightingSystem: Illumination: 1:20 min (4.34 sec encoding lightmaps, 1.14 sec encoding shadowmaps)
+[2018.02.08-00.30.29:223][281]LogStaticLightingSystem: Lightmap texture memory:  8.9 MB (6.2 MB streaming, 2.7 MB non-streaming), 58 textures
+[2018.02.08-00.30.29:223][281]LogStaticLightingSystem: Shadowmap texture memory: 4.0 MB (2.7 MB streaming, 1.3 MB non-streaming), 2 textures
+[2018.02.08-00.30.29:616][281]DumpUnbuiltLightIteractions
+[2018.02.08-00.30.29:616][281]Lights with unbuilt interactions: 0
+[2018.02.08-00.30.29:616][281]
+[2018.02.08-00.30.29:616][281]Primitives with unbuilt interactions: 0
+[2018.02.08-00.30.29:689][282]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.08-00.30.29:689][282]MapCheck: New page: FirstPersonExampleMap - Feb 7, 2018, 2:30:29 PM
+[2018.02.08-00.30.30:376][282]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 687.058ms to complete.
+[2018.02.08-00.32.57:715][135]LogSavePackage: Save=73967.92ms
+[2018.02.08-00.32.57:715][135]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap3053EE124BE8CCED5B0EBA9FA012516F.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.02.08-00.32.57:762][135]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.02.08-00.32.57:897][135]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 88.979
+[2018.02.08-00.33.28:173][135]LogSavePackage: Save=12362.37ms
+[2018.02.08-00.33.28:173][135]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_BuiltData4C33FBF54F51DAB3BE63FF82B2704CF7.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.02.08-00.33.28:218][135]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.02.08-00.33.28:433][135]LogSavePackage: Save=99.00ms
+[2018.02.08-00.33.28:434][135]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign2Small_Mat9694ACD24F0896B9F4A1B58DE730015E.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset'
+[2018.02.08-00.33.28:474][135]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign2Small_Mat.uasset
+[2018.02.08-00.33.28:606][135]LogSavePackage: Save=34.57ms
+[2018.02.08-00.33.28:606][135]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Campaign1Small_Mat24272249472219A0B60ACF86B3788A66.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset'
+[2018.02.08-00.33.28:647][135]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/Images/Campaign1Small_Mat.uasset
+[2018.02.08-00.48.00:881][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.08-00.48.02:507][159]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight5)
+[2018.02.08-00.48.09:220][857]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.08-00.48.14:664][376]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight5)
+[2018.02.08-00.48.15:768][480]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.02.08-00.48.24:832][402]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.48.26:127][513]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.48.58:483][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.08-00.49.08:835][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.49.36:336][464]LogMaterial: Missing cached shader map for material T_Brick_Clay_New_Mat, compiling. 
+[2018.02.08-00.50.06:643][795]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.50.08:296][916]LogActorFactory: Actor Factory created Cube
+[2018.02.08-00.50.47:852][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mailbox)
+[2018.02.08-00.50.49:284][470]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.51.00:320][431]Cmd: TRANSACTION UNDO
+[2018.02.08-00.51.00:320][431]LogEditorTransaction: Undo Scale Actors
+[2018.02.08-00.51.00:940][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mailbox)
+[2018.02.08-00.51.08:846][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.51.46:368][802]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-00.51.46:415][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.51.46:415][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-00.51.46:415][802]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 2:51:46 PM)
+[2018.02.08-00.51.46:415][802]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-00.51.46:508][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092520s)
+[2018.02.08-00.51.46:509][802]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-00.51.46:509][802]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2018.02.08-00.51.46:510][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.094619s)
+[2018.02.08-00.51.46:547][802]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-00.51.46:563][802]LogInit: FAudioDevice initialized.
+[2018.02.08-00.51.46:595][802]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-00.51.46:606][802]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-19.51.46
+[2018.02.08-00.51.46:607][802]LogWorld: Bringing up level for play took: 0.011597
+[2018.02.08-00.51.46:607][802]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-00.51.46:609][802]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.479
+[2018.02.08-00.51.46:609][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.51.56:986][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.51.57:054][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.51.58:447][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mailbox)
+[2018.02.08-00.52.02:651][273]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.52.07:718][756]Cmd: TRANSACTION UNDO
+[2018.02.08-00.52.07:718][756]LogEditorTransaction: Undo Move Actors
+[2018.02.08-00.52.08:149][786]Cmd: TRANSACTION UNDO
+[2018.02.08-00.52.08:149][786]LogEditorTransaction: Undo Scale Actors
+[2018.02.08-00.52.08:978][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mailbox)
+[2018.02.08-00.52.23:927][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.08-00.52.28:607][569]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-00.52.28:682][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.52.28:682][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-00.52.28:682][569]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 2:52:28 PM)
+[2018.02.08-00.52.28:682][569]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-00.52.28:752][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070173s)
+[2018.02.08-00.52.28:754][569]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-00.52.28:754][569]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2018.02.08-00.52.28:754][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.072009s)
+[2018.02.08-00.52.28:789][569]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-00.52.28:803][569]LogInit: FAudioDevice initialized.
+[2018.02.08-00.52.28:840][569]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-00.52.28:852][569]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-19.52.28
+[2018.02.08-00.52.28:852][569]LogWorld: Bringing up level for play took: 0.011796
+[2018.02.08-00.52.28:853][569]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-00.52.28:854][569]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.234
+[2018.02.08-00.52.28:854][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.56.43:250][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.56.43:315][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-00.57.44:795][738]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.08-00.58.29:325][ 21]Cmd: TRANSACTION UNDO
+[2018.02.08-00.58.29:325][ 21]LogEditorTransaction: Undo Move Actors
+[2018.02.08-00.59.28:837][409]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.08-00.59.40:623][238]Cmd: TRANSACTION UNDO
+[2018.02.08-00.59.40:623][238]LogEditorTransaction: Undo Move Actors
+[2018.02.08-00.59.47:045][643]LogActorFactory: Actor Factory created Cylinder
+[2018.02.08-00.59.48:523][737]LogActorFactory: Actor Factory created Cylinder
+[2018.02.08-00.59.51:757][949]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.08-00.59.52:655][  6]LogSlate: Took 0.014431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.08-00.59.57:729][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.02.08-01.01.40:296][ 68]LogSavePackage: Save=45058.19ms
+[2018.02.08-01.01.40:296][ 68]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_Auto2EDF57AC548BBD86238AB7385CA4C5882.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.02.08-01.01.40:321][ 68]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.02.08-01.01.40:337][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 45.986
+[2018.02.08-01.01.40:337][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 45.986
+[2018.02.08-01.01.40:342][ 68]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Brick_Clay_New_Mat] ([1] browsable assets)...
+[2018.02.08-01.01.40:364][ 68]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Brick_Clay_New_Mat.T_Brick_Clay_New_Mat]
+[2018.02.08-01.01.40:364][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Brick_Clay_New_Mat]
+[2018.02.08-01.01.40:423][ 68]LogSavePackage: Save=37.86ms
+[2018.02.08-01.01.40:423][ 68]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/T_Brick_Clay_New_Mat_Auto26509B011471D427793293CA6AC7C58B8.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_New_Mat_Auto2.uasset'
+[2018.02.08-01.01.40:459][ 68]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/StarterContent/Textures/T_Brick_Clay_New_Mat_Auto2.uasset
+[2018.02.08-01.01.40:459][ 68]LogFileHelpers: Auto-saving content packages took 0.120
+[2018.02.08-01.08.48:601][690]LogActorFactory: Actor Factory created Cylinder
+[2018.02.08-01.08.52:436][968]LogActorFactory: Actor Factory created Cylinder
+[2018.02.08-01.09.31:123][775]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.08-01.09.36:883][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2018.02.08-01.09.50:441][233]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.08-01.10.40:370][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2018.02.08-01.10.41:648][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.02.08-01.10.42:526][ 56]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder2)
+[2018.02.08-01.10.53:400][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.02.08-01.14.59:379][282]MapCheck: New page: Map Check
+[2018.02.08-01.14.59:394][282]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.08-01.14.59:398][282]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.08-01.15.00:632][282]LightingResults: New page: Lighting Build - Feb 7, 2018, 3:15:00 PM
+[2018.02.08-01.15.00:770][282]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.08-01.15.00:774][282]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.08-01.15.00:774][282]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.08-01.15.00:792][282]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.08-01.15.00:792][282]LogSwarmInterface: [TryOpenConnection] Local Process ID is 344
+[2018.02.08-01.15.02:602][282]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.08-01.15.02:602][282]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.08-01.15.02:602][282]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.08-01.15.02:603][282]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.08-01.15.02:603][282]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.08-01.15.02:848][282]LogEditorBuildUtils: Build time 0:03
+[2018.02.08-01.15.02:907][283]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign2Small_Mat, compiling. 
+[2018.02.08-01.15.02:915][283]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign2Small_Mat, compiling. 
+[2018.02.08-01.15.02:996][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign1Small_Mat, compiling. 
+[2018.02.08-01.15.03:008][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Campaign1Small_Mat, compiling. 
+[2018.02.08-01.15.03:042][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2018.02.08-01.15.03:092][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2018.02.08-01.15.03:126][286]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2018.02.08-01.15.03:138][286]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2018.02.08-01.15.16:206][741]LightingResults:Warning: Warning ArmChair_Cylinder01 Object has overlapping UVs.
+[2018.02.08-01.15.16:206][741]LightingResults: Info ArmChair_Cylinder01 Lightmap UV are overlapping by 70.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.16:627][761]LightingResults:Warning: Warning Desk_Desk_Drawer_Small Object has overlapping UVs.
+[2018.02.08-01.15.16:627][761]LightingResults: Info Desk_Desk_Drawer_Small Lightmap UV are overlapping by 41.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.16:817][770]LightingResults:Warning: Warning Desk_Desk_Drawer_Large Object has overlapping UVs.
+[2018.02.08-01.15.16:817][770]LightingResults: Info Desk_Desk_Drawer_Large Lightmap UV are overlapping by 41.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.17:006][779]LightingResults:Warning: Warning ArmChair_Box01 Object has wrapping UVs.
+[2018.02.08-01.15.17:006][779]LightingResults:Warning: Warning ArmChair_Box01 Object has overlapping UVs.
+[2018.02.08-01.15.17:006][779]LightingResults: Info ArmChair_Box01 Lightmap UV are overlapping by 10.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.17:301][793]LightingResults:Warning: Warning Desk_Desk_Desktop_Small Object has overlapping UVs.
+[2018.02.08-01.15.17:301][793]LightingResults: Info Desk_Desk_Desktop_Small Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.17:932][823]LightingResults:Warning: Warning Desk_Desk_Desk_Main Object has overlapping UVs.
+[2018.02.08-01.15.17:932][823]LightingResults: Info Desk_Desk_Desk_Main Lightmap UV are overlapping by 7.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.18:773][863]LightingResults:Warning: Warning ArmChair_Tube02 Object has overlapping UVs.
+[2018.02.08-01.15.18:774][863]LightingResults: Info ArmChair_Tube02 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.20:097][926]LightingResults:Warning: Warning ArmChair_Tube01 Object has overlapping UVs.
+[2018.02.08-01.15.20:118][927]LightingResults: Info ArmChair_Tube01 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.25:378][177]LightingResults:Warning: Warning Couch_2017 Object has overlapping UVs.
+[2018.02.08-01.15.25:378][177]LightingResults: Info Couch_2017 Lightmap UV are overlapping by 3.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.15.59:242][791]Job is a success!
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.02.08-01.16.03:063][792]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT, 256X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 256X256)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:064][792]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT, 128X64)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT, 64X32)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 64X64)
+[2018.02.08-01.16.03:065][792]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1, 64X64)
+[2018.02.08-01.16.03:463][792]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 512X512)
+[2018.02.08-01.16.03:599][792]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X512)
+[2018.02.08-01.16.03:624][792]Lightmass on MEE-PC: 56.0 sec total, 1.48 sec importing, 1.43 sec setup, 3.89 sec photons, 49.1 sec processing, 0 ms extra exporting [781/781 mappings]. Threads: 3:16 min total, 2:10 min processing.
+[2018.02.08-01.16.03:804][792]LogStaticLightingSystem: Illumination: 1:03 min (3.27 sec encoding lightmaps, 533 ms encoding shadowmaps)
+[2018.02.08-01.16.03:804][792]LogStaticLightingSystem: Lightmap texture memory:  8.6 MB (5.9 MB streaming, 2.7 MB non-streaming), 58 textures
+[2018.02.08-01.16.03:804][792]LogStaticLightingSystem: Shadowmap texture memory: 4.0 MB (2.7 MB streaming, 1.3 MB non-streaming), 2 textures
+[2018.02.08-01.16.04:622][792]DumpUnbuiltLightIteractions
+[2018.02.08-01.16.04:622][792]Lights with unbuilt interactions: 0
+[2018.02.08-01.16.04:622][792]
+[2018.02.08-01.16.04:622][792]Primitives with unbuilt interactions: 0
+[2018.02.08-01.16.04:652][793]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.08-01.16.04:652][793]MapCheck: New page: FirstPersonExampleMap - Feb 7, 2018, 3:16:04 PM
+[2018.02.08-01.16.05:168][793]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 516.46ms to complete.
+[2018.02.08-01.16.31:675][502]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-01.16.31:726][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.16.31:727][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-01.16.31:727][502]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 3:16:31 PM)
+[2018.02.08-01.16.31:727][502]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-01.16.31:805][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078139s)
+[2018.02.08-01.16.31:806][502]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-01.16.31:807][502]LogPlayLevel: PIE: World Init took: (0.001537s)
+[2018.02.08-01.16.31:807][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.080358s)
+[2018.02.08-01.16.31:846][502]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-01.16.31:864][502]LogInit: FAudioDevice initialized.
+[2018.02.08-01.16.31:899][502]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-01.16.31:912][502]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-20.16.31
+[2018.02.08-01.16.31:913][502]LogWorld: Bringing up level for play took: 0.013479
+[2018.02.08-01.16.31:913][502]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-01.16.31:915][502]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.827
+[2018.02.08-01.16.31:915][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.16.51:916][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.16.51:976][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.16.56:163][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2018.02.08-01.16.57:802][ 28]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
+[2018.02.08-01.16.59:298][144]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder)
+[2018.02.08-01.17.06:944][735]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-01.17.06:995][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.17.06:995][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-01.17.06:995][735]PIE: New page: PIE session: FirstPersonExampleMap (Feb 7, 2018, 3:17:06 PM)
+[2018.02.08-01.17.06:995][735]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.02.08-01.17.07:071][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076336s)
+[2018.02.08-01.17.07:073][735]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.08-01.17.07:073][735]LogPlayLevel: PIE: World Init took: (0.001811s)
+[2018.02.08-01.17.07:074][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.078698s)
+[2018.02.08-01.17.07:113][735]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-01.17.07:129][735]LogInit: FAudioDevice initialized.
+[2018.02.08-01.17.07:164][735]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.08-01.17.07:178][735]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.02.07-20.17.07
+[2018.02.08-01.17.07:179][735]LogWorld: Bringing up level for play took: 0.014717
+[2018.02.08-01.17.07:179][735]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.08-01.17.07:181][735]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.093
+[2018.02.08-01.17.07:181][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.17.20:760][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.17.20:811][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.02.08-01.17.24:151][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.02.08-01.19.57:258][975]MapCheck: New page: Map Check
+[2018.02.08-01.19.57:275][975]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.08-01.19.57:276][975]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.08-01.19.58:521][975]LightingResults: New page: Lighting Build - Feb 7, 2018, 3:19:58 PM
+[2018.02.08-01.19.58:660][975]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.08-01.19.58:662][975]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.08-01.19.58:662][975]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.08-01.19.58:664][975]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.08-01.19.58:664][975]LogSwarmInterface: [TryOpenConnection] Local Process ID is 344
+[2018.02.08-01.20.00:321][975]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.08-01.20.00:321][975]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.08-01.20.00:321][975]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.08-01.20.00:321][975]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.08-01.20.00:321][975]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.08-01.20.00:511][975]LogEditorBuildUtils: Build time 0:03
+[2018.02.08-01.20.10:582][411]LightingResults:Warning: Warning ArmChair_Cylinder01 Object has overlapping UVs.
+[2018.02.08-01.20.10:582][411]LightingResults: Info ArmChair_Cylinder01 Lightmap UV are overlapping by 70.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.11:067][434]LightingResults:Warning: Warning Desk_Desk_Drawer_Small Object has overlapping UVs.
+[2018.02.08-01.20.11:067][434]LightingResults: Info Desk_Desk_Drawer_Small Lightmap UV are overlapping by 41.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.11:109][436]LightingResults:Warning: Warning Desk_Desk_Drawer_Large Object has overlapping UVs.
+[2018.02.08-01.20.11:109][436]LightingResults: Info Desk_Desk_Drawer_Large Lightmap UV are overlapping by 41.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.11:480][453]LightingResults:Warning: Warning ArmChair_Box01 Object has wrapping UVs.
+[2018.02.08-01.20.11:480][453]LightingResults:Warning: Warning ArmChair_Box01 Object has overlapping UVs.
+[2018.02.08-01.20.11:480][453]LightingResults: Info ArmChair_Box01 Lightmap UV are overlapping by 10.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.11:586][458]LightingResults:Warning: Warning Desk_Desk_Desktop_Small Object has overlapping UVs.
+[2018.02.08-01.20.11:586][458]LightingResults: Info Desk_Desk_Desktop_Small Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.12:219][488]LightingResults:Warning: Warning Desk_Desk_Desk_Main Object has overlapping UVs.
+[2018.02.08-01.20.12:219][488]LightingResults: Info Desk_Desk_Desk_Main Lightmap UV are overlapping by 7.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.13:143][532]LightingResults:Warning: Warning ArmChair_Tube02 Object has overlapping UVs.
+[2018.02.08-01.20.13:143][532]LightingResults: Info ArmChair_Tube02 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.14:500][597]LightingResults:Warning: Warning ArmChair_Tube01 Object has overlapping UVs.
+[2018.02.08-01.20.14:500][597]LightingResults: Info ArmChair_Tube01 Lightmap UV are overlapping by 43.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.19:900][853]LightingResults:Warning: Warning Couch_2017 Object has overlapping UVs.
+[2018.02.08-01.20.19:900][853]LightingResults: Info Couch_2017 Lightmap UV are overlapping by 3.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.08-01.20.54:793][514]Job is a success!
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:462][515]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 256X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 256X256)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:463][515]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 128X128)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT, 128X64)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT, 64X32)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 64X64)
+[2018.02.08-01.20.58:464][515]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1, 64X64)
+[2018.02.08-01.20.58:862][515]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 512X512)
+[2018.02.08-01.20.58:903][515]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X512)
+[2018.02.08-01.20.58:922][515]Lightmass on MEE-PC: 57.0 sec total, 1.68 sec importing, 1.23 sec setup, 4.01 sec photons, 50.0 sec processing, 0 ms extra exporting [781/781 mappings]. Threads: 3:20 min total, 2:14 min processing.
+[2018.02.08-01.20.59:035][515]LogStaticLightingSystem: Illumination: 1:00 min (3.22 sec encoding lightmaps, 437 ms encoding shadowmaps)
+[2018.02.08-01.20.59:035][515]LogStaticLightingSystem: Lightmap texture memory:  8.6 MB (5.9 MB streaming, 2.7 MB non-streaming), 58 textures
+[2018.02.08-01.20.59:035][515]LogStaticLightingSystem: Shadowmap texture memory: 4.0 MB (2.7 MB streaming, 1.3 MB non-streaming), 2 textures
+[2018.02.08-01.20.59:344][515]DumpUnbuiltLightIteractions
+[2018.02.08-01.20.59:344][515]Lights with unbuilt interactions: 0
+[2018.02.08-01.20.59:344][515]
+[2018.02.08-01.20.59:344][515]Primitives with unbuilt interactions: 0
+[2018.02.08-01.20.59:374][516]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.08-01.20.59:374][516]MapCheck: New page: FirstPersonExampleMap - Feb 7, 2018, 3:20:59 PM
+[2018.02.08-01.20.59:814][516]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 439.878ms to complete.
+[2018.02.08-01.22.06:633][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (police_car)
+[2018.02.08-01.28.08:051][654]LogSavePackage: Save=41272.07ms
+[2018.02.08-01.28.08:051][654]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_Auto324F5B2924AECC98C676E9C9DE7DF405F.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2018.02.08-01.28.08:074][654]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2018.02.08-01.28.08:265][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 42.389
+[2018.02.08-01.28.08:265][654]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 42.389
+[2018.02.08-01.28.08:274][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.02.08-01.28.08:274][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2018.02.08-01.28.25:841][654]LogSavePackage: Save=16016.40ms
+[2018.02.08-01.28.25:842][654]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_BuiltData_Auto3F93C84C847BAF2199F5C4F9592DFAB03.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset'
+[2018.02.08-01.28.25:871][654]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset
+[2018.02.08-01.28.25:872][654]LogFileHelpers: Auto-saving content packages took 17.602
+[2018.02.08-01.30.56:900][814]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.30.57:113][814]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.30.57:131][814]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.30.57:179][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-01.31.02:232][ 27]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.31.07:984][296]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-01.31.07:984][296]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-01.31.07:984][296]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.08-01.31.07:984][296]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-01.31.13:520][569]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.31.18:243][794]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-01.31.18:243][794]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-01.31.18:243][794]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.08-01.31.18:243][794]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-01.31.27:262][241]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.31.31:972][471]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-01.31.31:972][471]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-01.31.31:972][471]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.08-01.31.31:972][471]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-01.31.34:258][584]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.31.41:196][918]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.02.08-01.31.41:196][918]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-01.31.41:196][918]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.08-01.31.41:196][918]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-01.32.01:012][900]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.32.06:883][178]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.02.08-01.32.06:883][178]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-01.32.06:883][178]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.02.08-01.32.06:883][178]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-01.35.45:926][ 59]LogMaterialEditor: Saving and Compiling material body
+[2018.02.08-01.35.46:785][ 59]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.35.46:839][ 59]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.35.46:934][ 59]LogMaterial: Missing cached shader map for material body, compiling. 
+[2018.02.08-01.35.47:032][ 59]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy body, compiling. 
+[2018.02.08-01.35.49:248][ 59]TextureStreamingBuild:Display: Compiling optional shaders took 2.227 seconds.
+[2018.02.08-01.35.52:400][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Low_poly_police_car/body" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/Models/Low_poly_police_car/body.uasset" SILENT=true
+[2018.02.08-01.35.52:740][ 59]LogSavePackage: Save=257.30ms
+[2018.02.08-01.35.52:744][ 59]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/body4DB210944A6250F658082B9D73E7369D.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/Models/Low_poly_police_car/body.uasset'
+[2018.02.08-01.35.54:085][ 59]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/Models/Low_poly_police_car/body.uasset
+[2018.02.08-01.36.08:065][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OtherHouseTemp)
+[2018.02.08-01.37.48:320][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tbl034_Box05)
+[2018.02.08-01.38.37:151][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.08-01.50.55:765][439]LogSavePackage: Save=41534.95ms
+[2018.02.08-01.50.55:765][439]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMapFB4593214462680BCDF4ACB6258381A3.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.02.08-01.50.55:880][439]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.02.08-01.50.55:973][439]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 43.089
+[2018.02.08-01.51.06:637][439]LogSavePackage: Save=8474.89ms
+[2018.02.08-01.51.06:637][439]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/FirstPersonExampleMap_BuiltData795E76564CF34E1BC86FB29E5E2EA8EC.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.02.08-01.51.06:676][439]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.02.08-01.51.06:718][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/T_Brick_Clay_New_Mat" FILE="D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/T_Brick_Clay_New_Mat.uasset" SILENT=true
+[2018.02.08-01.51.06:780][439]LogSavePackage: Save=40.26ms
+[2018.02.08-01.51.06:780][439]LogSavePackage: Moving 'D:/Github/ProjectWorldAway/WorldsAway/Saved/T_Brick_Clay_New_Mat224EBA3F48718C1527AB7799ED3B6207.tmp' to 'D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/T_Brick_Clay_New_Mat.uasset'
+[2018.02.08-01.51.06:807][439]LogSavePackage:Display: Finished SavePackage D:/Github/ProjectWorldAway/WorldsAway/Content/StarterContent/Textures/T_Brick_Clay_New_Mat.uasset
